@@ -1,0 +1,1070 @@
+[04Aug2026 21:39:36.833] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.4.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[04Aug2026 21:39:36.837] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.19 by Ubuntu; OS Linux arch amd64 version 6.8.0-1052-azure
+[04Aug2026 21:39:37.698] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[04Aug2026 21:39:37.748] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/server-create/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[04Aug2026 21:39:38.174] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server-create/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.4.0/fmlcore-1.20.1-47.4.0.jar is missing mods.toml file
+[04Aug2026 21:39:38.175] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server-create/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.4.0/javafmllanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[04Aug2026 21:39:38.177] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server-create/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.4.0/lowcodelanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[04Aug2026 21:39:38.178] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server-create/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.4.0/mclanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[04Aug2026 21:39:38.915] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 44 dependencies adding them to mods collection
+[04Aug2026 21:39:42.305] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[04Aug2026 21:39:42.593] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [ca.spottedleaf.starlight.mixin.MixinConnector]
+[04Aug2026 21:39:42.594] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[04Aug2026 21:39:42.612] [main/WARN] [mixin/]: Reference map 'createdeco-common-refmap.json' for createdeco-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[04Aug2026 21:39:42.624] [main/WARN] [mixin/]: Reference map 'createdeco-forge-refmap.json' for createdeco.mixins.json could not be read. If this is a development environment you can ignore this message
+[04Aug2026 21:39:42.884] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.27.66+mc1.20.1: 110 options available, 0 override(s) found
+[04Aug2026 21:39:42.885] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[04Aug2026 21:39:42.902] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[04Aug2026 21:39:42.926] [main/WARN] [mixin/]: Reference map 'interiors-forge-refmap.json' for interiors.mixins.json could not be read. If this is a development environment you can ignore this message
+[04Aug2026 21:39:42.929] [main/WARN] [mixin/]: Reference map 'createframed.refmap.json' for createframed.mixins.json could not be read. If this is a development environment you can ignore this message
+[04Aug2026 21:39:43.045] [main/WARN] [mixin/]: Reference map 'tfmg.refmap.json' for design_decor.mixins.json could not be read. If this is a development environment you can ignore this message
+[04Aug2026 21:39:43.055] [main/WARN] [mixin/]: Reference map 'tfmg.refmap.json' for tfmg.mixins.json could not be read. If this is a development environment you can ignore this message
+[04Aug2026 21:39:43.061] [main/WARN] [mixin/]: Reference map 'mixins.choups_drakvyrn_mod.refmap.json' for mixins.choups_drakvyrn_mod.json could not be read. If this is a development environment you can ignore this message
+[04Aug2026 21:39:44.341] [main/WARN] [mixin/]: Error loading class: dev/latvian/mods/kubejs/recipe/RecipesEventJS (java.lang.ClassNotFoundException: dev.latvian.mods.kubejs.recipe.RecipesEventJS)
+[04Aug2026 21:39:44.342] [main/WARN] [mixin/]: @Mixin target dev.latvian.mods.kubejs.recipe.RecipesEventJS was not found sliceanddice.mixins.json:RecipeEventJSMixin
+[04Aug2026 21:39:44.352] [main/WARN] [mixin/]: Error loading class: com/firemerald/additionalplacements/common/ConfigCommon (java.lang.ClassNotFoundException: com.firemerald.additionalplacements.common.ConfigCommon)
+[04Aug2026 21:39:44.355] [main/WARN] [mixin/]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com.firemerald.additionalplacements.block.AdditionalPlacementBlock)
+[04Aug2026 21:39:44.356] [main/WARN] [mixin/]: @Mixin target com.firemerald.additionalplacements.block.AdditionalPlacementBlock was not found copycats-common.mixins.json:compat.additionalplacements.PlacementBlockMixin
+[04Aug2026 21:39:44.368] [main/WARN] [mixin/]: Error loading class: me/jellysquid/mods/lithium/common/ai/pathing/PathNodeDefaults (java.lang.ClassNotFoundException: me.jellysquid.mods.lithium.common.ai.pathing.PathNodeDefaults)
+[04Aug2026 21:39:44.371] [main/WARN] [mixin/]: Error loading class: me/jellysquid/mods/sodium/client/render/chunk/compile/pipeline/BlockOcclusionCache (java.lang.ClassNotFoundException: me.jellysquid.mods.sodium.client.render.chunk.compile.pipeline.BlockOcclusionCache)
+[04Aug2026 21:39:44.386] [main/WARN] [mixin/]: Error loading class: cjminecraft/doubleslabs/common/config/DSConfig$Common (java.lang.ClassNotFoundException: cjminecraft.doubleslabs.common.config.DSConfig$Common)
+[04Aug2026 21:39:44.627] [main/INFO] [AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.minecraft.UntrackedIssue002 will be loaded as it matches versions: 1.20.1 in 1.20.1
+[04Aug2026 21:39:44.627] [main/INFO] [AllTheLeaks/]: Mixins added to allowed list: [main.EntityTickListMixin]
+[04Aug2026 21:39:44.627] [main/INFO] [AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.minecraft.UntrackedIssue001 will be loaded as it matches versions: 1.20.1 in 1.20.1
+[04Aug2026 21:39:44.628] [main/INFO] [AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.irons_spellbooks.UntrackedIssue001 will be loaded as it matches versions: 1.20.1-3.16.2 in [1.20.1-3.4.0,)
+[04Aug2026 21:39:44.628] [main/INFO] [AllTheLeaks/]: Mixins added to allowed list: [main.ServerPlayerEventsMixin]
+[04Aug2026 21:39:44.629] [main/INFO] [AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.forge.UntrackedIssue002 will be loaded as it matches versions: 47.4.0 in [47.2,)
+[04Aug2026 21:39:44.629] [main/INFO] [AllTheLeaks/]: Mixins added to allowed list: [accessor.FakePlayerNetHandlerAccessor, accessor.ConnectionAccessor]
+[04Aug2026 21:39:44.629] [main/INFO] [AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.forge.UntrackedIssue001 will be loaded as it matches versions: 47.4.0 in [47.2,)
+[04Aug2026 21:39:44.629] [main/INFO] [AllTheLeaks/]: Mixins added to allowed list: [main.ServerPlayerMixin, main.PlayerListMixin, accessor.PlayerAdvancementsAccessor]
+[04Aug2026 21:39:44.630] [main/INFO] [AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.forge.Issue39 will be loaded as it matches versions: 47.4.0 in [47.2,)
+[04Aug2026 21:39:44.630] [main/INFO] [AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.forge.Issue10684 will be loaded as it matches versions: 47.4.0 in *
+[04Aug2026 21:39:44.631] [main/INFO] [AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.curios.UntrackedIssue001 will be loaded as it matches versions: 5.14.1+1.20.1 in [5.9.1,)
+[04Aug2026 21:39:44.631] [main/INFO] [AllTheLeaks/]: Mixins added to allowed list: [main.CuriosEventHandlerMixin]
+[04Aug2026 21:39:44.631] [main/INFO] [AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.createaddition.UntrackedIssue001 will be loaded as it matches versions: 1.20.1-1.2.3 in [1.20.1-1.0.0b,1.20.1-1.2.3]
+[04Aug2026 21:39:44.631] [main/INFO] [AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.create.UntrackedIssue001 will be loaded as it matches versions: 0.5.1.f in [0.5.1.c,)
+[04Aug2026 21:39:44.632] [main/INFO] [AllTheLeaks/]: Mixins added to allowed list: [accessor.ExtendoGripItemAccessor]
+[04Aug2026 21:39:44.632] [main/INFO] [AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.architectury.UntrackedIssue001 will be loaded as it matches versions: 9.2.14 in [9.0.8,)
+[04Aug2026 21:39:44.638] [main/INFO] [AllTheLeaks/]: Class dev.uncandango.alltheleaks.fix.common.mods.modernfix.CancelRLMixin will be loaded as it matches versions: 5.27.66+mc1.20.1 in [5.0.0,)
+[04Aug2026 21:39:44.639] [main/INFO] [AllTheLeaks/]: Mixins added to cancel list: [org.embeddedt.modernfix.common.mixin.perf.deduplicate_location.MixinResourceLocation]
+[04Aug2026 21:39:44.644] [main/INFO] [AllTheLeaks/]: Class dev.uncandango.alltheleaks.feature.common.mods.minecraft.MemoryMonitor will be loaded as it matches versions: 1.20.1 in 1.20.1
+[04Aug2026 21:39:44.645] [main/INFO] [AllTheLeaks/]: Mixins added to allowed list: [main.PlayerMixin, main.ChunkAccessMixin, main.LevelMixin, main.MinecraftServerMixin]
+[04Aug2026 21:39:44.645] [main/INFO] [AllTheLeaks/]: Class dev.uncandango.alltheleaks.feature.common.mods.minecraft.ClearLeakedLevelChunks will be loaded as it matches versions: 1.20.1 in 1.20.1
+[04Aug2026 21:39:44.645] [main/INFO] [AllTheLeaks/]: Mixins added to allowed list: [accessor.LevelAccessor, main.RebindableTickingBlockEntityWrapperMixin, accessor.LevelChunkAccessor]
+[04Aug2026 21:39:44.861] [main/WARN] [mixin/]: Error loading class: rbasamoyai/createbigcannons/cannon_control/contraption/PitchOrientedContraptionEntity (java.lang.ClassNotFoundException: rbasamoyai.createbigcannons.cannon_control.contraption.PitchOrientedContraptionEntity)
+[04Aug2026 21:39:44.872] [main/WARN] [mixin/]: Error loading class: com/jamieswhiteshirt/reachentityattributes/ReachEntityAttributes (java.lang.ClassNotFoundException: com.jamieswhiteshirt.reachentityattributes.ReachEntityAttributes)
+[04Aug2026 21:39:44.890] [main/WARN] [mixin/]: Error loading class: blusunrize/immersiveengineering/common/gui/BlockEntityInventory (java.lang.ClassNotFoundException: blusunrize.immersiveengineering.common.gui.BlockEntityInventory)
+[04Aug2026 21:39:44.892] [main/WARN] [mixin/]: Error loading class: net/dries007/tfc/world/TFCChunkGenerator (java.lang.ClassNotFoundException: net.dries007.tfc.world.TFCChunkGenerator)
+[04Aug2026 21:39:44.895] [main/WARN] [mixin/]: Error loading class: cofh/core/block/entity/TileCoFH (java.lang.ClassNotFoundException: cofh.core.block.entity.TileCoFH)
+[04Aug2026 21:39:44.897] [main/WARN] [mixin/]: Error loading class: li/cil/tis3d/common/entity/InfraredPacketEntity (java.lang.ClassNotFoundException: li.cil.tis3d.common.entity.InfraredPacketEntity)
+[04Aug2026 21:39:44.899] [main/WARN] [mixin/]: Error loading class: me/desht/modularrouters/container/RouterMenu (java.lang.ClassNotFoundException: me.desht.modularrouters.container.RouterMenu)
+[04Aug2026 21:39:44.946] [main/WARN] [mixin/]: Error loading class: rbasamoyai/createbigcannons/crafting/boring/AbstractCannonDrillBlockEntity (java.lang.ClassNotFoundException: rbasamoyai.createbigcannons.crafting.boring.AbstractCannonDrillBlockEntity)
+[04Aug2026 21:39:45.024] [main/WARN] [mixin/]: Error loading class: net/orcinus/overweightfarming/blocks/CropFullBlock (java.lang.ClassNotFoundException: net.orcinus.overweightfarming.blocks.CropFullBlock)
+[04Aug2026 21:39:45.025] [main/WARN] [mixin/]: @Mixin target net.orcinus.overweightfarming.blocks.CropFullBlock was not found create_central_kitchen.mixins.json:common.overweightfarming.CropFullBlockMixin
+[04Aug2026 21:39:45.096] [main/WARN] [mixin/]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com.firemerald.additionalplacements.block.AdditionalPlacementBlock)
+[04Aug2026 21:39:45.098] [main/WARN] [mixin/]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com.firemerald.additionalplacements.block.AdditionalPlacementBlock)
+[04Aug2026 21:39:45.128] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/blockentity/BlockEntityRendererProvider$Context (java.lang.ClassNotFoundException: net.minecraft.client.renderer.blockentity.BlockEntityRendererProvider$Context)
+[04Aug2026 21:39:45.129] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/blockentity/BlockEntityRendererProvider$Context (java.lang.ClassNotFoundException: net.minecraft.client.renderer.blockentity.BlockEntityRendererProvider$Context)
+[04Aug2026 21:39:45.138] [main/ERROR] [mixin/]: valkyrienskies-common.mixins.json:feature.container_distance_check.MixinContainer: Interface mixin contains a non-public method! Found includeShipsInDistanceCheck(Lnet/minecraft/world/entity/player/Player;DDD)D in valkyrienskies-common.mixins.json:feature.container_distance_check.MixinContainer
+org.spongepowered.asm.mixin.transformer.throwables.InvalidInterfaceMixinException: Interface mixin contains a non-public method! Found includeShipsInDistanceCheck(Lnet/minecraft/world/entity/player/Player;DDD)D in valkyrienskies-common.mixins.json:feature.container_distance_check.MixinContainer
+	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorInterface.prepareMethod(MixinPreProcessorInterface.java:65) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.prepare(MixinPreProcessorStandard.java:187) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinInfo$State.validate(MixinInfo.java:322) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinInfo.validate(MixinInfo.java:913) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinConfig.postInitialise(MixinConfig.java:801) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.prepareConfigs(MixinProcessor.java:567) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.select(MixinProcessor.java:462) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.checkSelect(MixinProcessor.java:438) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:290) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:250) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.service.modlauncher.MixinTransformationHandler.processClass(MixinTransformationHandler.java:131) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.launch.MixinLaunchPluginLegacy.processClass(MixinLaunchPluginLegacy.java:131) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at cpw.mods.modlauncher.serviceapi.ILaunchPluginService.processClassWithFlags(ILaunchPluginService.java:156) ~[modlauncher-10.0.9.jar%2355!/:10.0.9+10.0.9+main.dcd20f30]
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:637) ~[?:?]
+	at java.lang.Class.forName(Class.java:547) ~[?:?]
+	at net.minecraftforge.fml.loading.ImmediateWindowHandler$DummyProvider.lambda$updateModuleReads$1(ImmediateWindowHandler.java:145) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:1.0]
+	at java.util.Optional.map(Optional.java:260) ~[?:?]
+	at net.minecraftforge.fml.loading.ImmediateWindowHandler$DummyProvider.updateModuleReads(ImmediateWindowHandler.java:145) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:1.0]
+	at net.minecraftforge.fml.loading.ImmediateWindowHandler.acceptGameLayer(ImmediateWindowHandler.java:71) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:1.0]
+	at net.minecraftforge.fml.loading.FMLLoader.beforeStart(FMLLoader.java:216) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:1.0]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.launchService(CommonLaunchHandler.java:92) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[04Aug2026 21:39:45.179] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[04Aug2026 21:39:45.764] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (11.45 s after launch)
+[04Aug2026 21:39:45.922] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-modernfix.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[04Aug2026 21:39:45.922] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-modernfix.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[04Aug2026 21:39:46.040] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getOpacityIfCached from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[04Aug2026 21:39:46.041] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into isConditionallyFullOpaque from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[04Aug2026 21:39:47.264] [main/WARN] [mixin/]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com.firemerald.additionalplacements.block.AdditionalPlacementBlock)
+[04Aug2026 21:39:47.296] [main/WARN] [mixin/]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com.firemerald.additionalplacements.block.AdditionalPlacementBlock)
+[04Aug2026 21:39:47.369] [main/WARN] [mixin/]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com.firemerald.additionalplacements.block.AdditionalPlacementBlock)
+[04Aug2026 21:39:47.377] [main/WARN] [mixin/]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com.firemerald.additionalplacements.block.AdditionalPlacementBlock)
+[04Aug2026 21:39:47.384] [main/WARN] [mixin/]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com.firemerald.additionalplacements.block.AdditionalPlacementBlock)
+[04Aug2026 21:39:47.532] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 1753 milliseconds
+[04Aug2026 21:39:51.768] [modloading-worker-0/INFO] [Create Deco/]: Registering items for Create Deco
+[04Aug2026 21:39:51.908] [modloading-worker-0/INFO] [Create Deco/]: Registering blocks for Create Deco
+[04Aug2026 21:39:52.267] [modloading-worker-0/INFO] [plus.dragons.createdragonlib.DragonLib/]: Create: Dragon Lib 1.4.3 has initialized, ready to support your Create add-ons!
+[04Aug2026 21:39:52.382] [modloading-worker-0/INFO] [create_new_age/]: Hello 1.20.1 Create!
+[04Aug2026 21:39:52.651] [modloading-worker-0/INFO] [Create: Interiors/]: Create: Interiors v0.5.3+forge-mc1.20.1 initializing! Create version: 0.5.1f on platform: Forge
+[04Aug2026 21:39:53.052] [modloading-worker-0/INFO] [STDOUT/]: [uwu.lopyluna.create_dd.worldgen.ponder_dim.Pondering:register:19]: Pondering Dimensions create_dd
+[04Aug2026 21:39:53.419] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[04Aug2026 21:39:53.595] [modloading-worker-0/WARN] [mixin/]: @Inject(@At("INVOKE_ASSIGN")) Shift.BY=2 on valkyrienskies-common.mixins.json:mod_compat.create.block.MixinRedstoneContactBlock::handler$bhk000$injectTick exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[04Aug2026 21:39:53.756] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialize mod Library Ferret
+[04Aug2026 21:39:53.774] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialized mod Library Ferret
+[04Aug2026 21:39:53.856] [modloading-worker-0/INFO] [Railways/]: Registered bogey styles from railways
+[04Aug2026 21:39:54.092] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.0, for MC 1.20.1 with MCP 20230612.114412
+[04Aug2026 21:39:54.092] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.0 Initialized
+[04Aug2026 21:39:54.137] [modloading-worker-0/INFO] [Railways/]: Registering data fixers
+[04Aug2026 21:39:54.345] [modloading-worker-0/INFO] [ModernFix/]: Bypassed Mojang DFU
+[04Aug2026 21:39:54.346] [modloading-worker-0/INFO] [ModernFix/]: Instantiating Mojang DFU
+[04Aug2026 21:39:55.301] [modloading-worker-0/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 0 Datafixer optimizations took 0 milliseconds
+[04Aug2026 21:39:55.313] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Hex Casting
+[04Aug2026 21:39:55.315] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Oh The Biomes You'll Go
+[04Aug2026 21:39:55.315] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Blue Skies
+[04Aug2026 21:39:55.316] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Twilight Forest
+[04Aug2026 21:39:55.317] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Biomes O' Plenty
+[04Aug2026 21:39:55.317] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Nature's Spirit
+[04Aug2026 21:39:55.318] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Dreams and Desires
+[04Aug2026 21:39:55.345] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Quark
+[04Aug2026 21:39:55.345] [modloading-worker-0/INFO] [Railways/]: Registering tracks for TerraFirmaCraft
+[04Aug2026 21:39:55.654] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
+[04Aug2026 21:39:55.892] [modloading-worker-0/INFO] [creategoggles/]: CreateGoggles init
+[04Aug2026 21:39:55.893] [modloading-worker-0/INFO] [creategoggles/]: cgblocks
+[04Aug2026 21:39:55.895] [modloading-worker-0/INFO] [creategoggles/]: cgitems
+[04Aug2026 21:39:55.916] [modloading-worker-0/INFO] [creategoggles/]: cgblockentities
+[04Aug2026 21:39:55.922] [modloading-worker-0/INFO] [creategoggles/]: ResourceKey[minecraft:trim_pattern / creategoggles:goggle]
+[04Aug2026 21:39:55.923] [modloading-worker-0/INFO] [creategoggles/]: ResourceKey[minecraft:trim_material / creategoggles:goggle_material]
+[04Aug2026 21:39:55.923] [modloading-worker-0/INFO] [creategoggles/]: ResourceKey[minecraft:root / minecraft:trim_pattern]
+[04Aug2026 21:39:55.952] [modloading-worker-0/INFO] [creategoggles/]: CGItemModifiers register false
+[04Aug2026 21:39:55.978] [modloading-worker-0/INFO] [creategoggles/]: CreateGogglesForge init
+[04Aug2026 21:39:57.149] [modloading-worker-0/INFO] [STDOUT/]: [org.valkyrienskies.core.impl.config.VSConfigClass$Companion:registerNetworkHandlers:-1]: registering network handlers
+[04Aug2026 21:39:59.620] [main/INFO] [Create Deco/]: placard tooltip was null
+[04Aug2026 21:39:59.620] [main/INFO] [Create Deco/]: placard tooltip was null
+[04Aug2026 21:39:59.620] [main/INFO] [Create Deco/]: placard tooltip was null
+[04Aug2026 21:39:59.620] [main/INFO] [Create Deco/]: placard tooltip was null
+[04Aug2026 21:39:59.621] [main/INFO] [Create Deco/]: placard tooltip was null
+[04Aug2026 21:39:59.621] [main/INFO] [Create Deco/]: placard tooltip was null
+[04Aug2026 21:39:59.621] [main/INFO] [Create Deco/]: placard tooltip was null
+[04Aug2026 21:39:59.621] [main/INFO] [Create Deco/]: placard tooltip was null
+[04Aug2026 21:39:59.621] [main/INFO] [Create Deco/]: placard tooltip was null
+[04Aug2026 21:39:59.621] [main/INFO] [Create Deco/]: placard tooltip was null
+[04Aug2026 21:39:59.621] [main/INFO] [Create Deco/]: placard tooltip was null
+[04Aug2026 21:39:59.621] [main/INFO] [Create Deco/]: placard tooltip was null
+[04Aug2026 21:39:59.621] [main/INFO] [Create Deco/]: placard tooltip was null
+[04Aug2026 21:39:59.621] [main/INFO] [Create Deco/]: placard tooltip was null
+[04Aug2026 21:39:59.621] [main/INFO] [Create Deco/]: placard tooltip was null
+[04Aug2026 21:39:59.962] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.item.PrimedTnt from class com.drmangotea.tfmg.items.gadgets.explosives.napalm.NapalmBombEntity
+[04Aug2026 21:40:00.516] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.mcreator.borninchaosv.entity.BabySpiderEntity from class net.mcreator.borninchaosv.entity.MotherSpiderEntity
+[04Aug2026 21:40:00.819] [main/INFO] [com.tom.createores.CreateOreExcavation/]: Loaded Create Ore Excavation config file createoreexcavation-common.toml
+[04Aug2026 21:40:00.916] [Thread-0/INFO] [ModernFix/]: Please use /mfsrc to reload any changed mod config files
+[04Aug2026 21:40:00.977] [modloading-worker-0/INFO] [cn.foggyhillside.ends_delight.EndsDelight/]: HELLO FROM PREINIT
+[04Aug2026 21:40:00.978] [modloading-worker-0/INFO] [cn.foggyhillside.ends_delight.EndsDelight/]: DIRT BLOCK >> translation{key='block.minecraft.dirt', args=[]}
+[04Aug2026 21:40:01.002] [modloading-worker-0/INFO] [net.pttheta.loveandwar.LoveAndWarMod/]: HELLO FROM COMMON SETUP
+[04Aug2026 21:40:01.023] [modloading-worker-0/INFO] [cn.mcmod_mmf.mmlib.Main/]: Presented by Zaia
+[04Aug2026 21:40:01.033] [modloading-worker-0/INFO] [com.tom.createores.CreateOreExcavation/]: Create Ore Excavation starting
+[04Aug2026 21:40:01.028] [modloading-worker-0/INFO] [creategoggles/]: Create Goggles Setup
+[04Aug2026 21:40:01.049] [modloading-worker-0/INFO] [com.tom.createores.CreateOreExcavation/]: Initilaized Network Handler
+[04Aug2026 21:40:01.264] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cccbridge] Starting version check at https://api.modrinth.com/updates/cccbridge/forge_updates.json
+[04Aug2026 21:40:01.574] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cccbridge] Found status: OUTDATED Current: 1.6.3-forge Target: 1.7.1
+[04Aug2026 21:40:01.574] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [computercraft] Starting version check at https://api.modrinth.com/updates/cc-tweaked/forge_updates.json
+[04Aug2026 21:40:01.588] [modloading-worker-0/INFO] [io.redspace.ironsspellbooks.IronsSpellbooks/]: Got IMC []
+[04Aug2026 21:40:01.630] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [computercraft] Found status: OUTDATED Current: 1.110.2 Target: 1.120.0
+[04Aug2026 21:40:01.630] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [copycats] Starting version check at https://raw.githubusercontent.com/copycats-plus/copycats/main/update.json
+[04Aug2026 21:40:01.678] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [copycats] Found status: AHEAD Current: 1.20.1-1.2.6 Target: null
+[04Aug2026 21:40:01.678] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[04Aug2026 21:40:01.692] [modloading-worker-0/INFO] [STDOUT/]: [com.mrh0.createaddition.CreateAddition:postInit:130]: Create Crafts & Additions Initialized!
+[04Aug2026 21:40:01.743] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.4.0 Target: 47.4.10
+[04Aug2026 21:40:01.744] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Starting version check at https://api.modrinth.com/updates/flywheel/forge_updates.json
+[04Aug2026 21:40:01.790] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Found status: BETA Current: 0.6.10-7 Target: null
+[04Aug2026 21:40:01.790] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [createcasing] Starting version check at https://api.modrinth.com/updates/create-encased/forge_updates.json
+[04Aug2026 21:40:01.839] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [createcasing] Found status: AHEAD Current: 1.20.1-1.6.0 Target: null
+[04Aug2026 21:40:01.839] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [createsifter] Starting version check at https://api.modrinth.com/updates/create-sifting/forge_updates.json
+[04Aug2026 21:40:01.874] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [createsifter] Found status: OUTDATED Current: 1.20.1-1.8.1.e-22 Target: 1.20.1-1.8.6-6.0.6
+[04Aug2026 21:40:01.874] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [createoreexcavation] Starting version check at https://raw.githubusercontent.com/tom5454/Create-Ore-Excavation/main/version-check.json
+[04Aug2026 21:40:01.887] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [createoreexcavation] Found status: BETA_OUTDATED Current: 1.4.3 Target: 1.6.5
+[04Aug2026 21:40:01.888] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [create_power_loader] Starting version check at https://raw.githubusercontent.com/hlysine/create_power_loader/main/update.json
+[04Aug2026 21:40:01.899] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [create_power_loader] Found status: OUTDATED Current: 1.4.0-mc1.20.1 Target: 2.0.3-mc1.20.1
+[04Aug2026 21:40:02.435] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[04Aug2026 21:40:03.029] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/server-create/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23259!/assets/.mcassetsroot' uses unexpected schema
+[04Aug2026 21:40:03.030] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/server-create/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23259!/data/.mcassetsroot' uses unexpected schema
+[04Aug2026 21:40:04.411] [main/INFO] [bettervillage/]: StructureSet modified for minecraft:village : Now using custom village configuration (can be disabled in the better villages config: boolean.villages.enabled_custom_config).
+[04Aug2026 21:40:05.384] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag forge:fuel as it is missing following references: createloveandwar:gasoline (from createloveandwar-0.1-1.20.1.jar), 
+	createloveandwar:flowing_gasoline (from createloveandwar-0.1-1.20.1.jar)
+[04Aug2026 21:40:05.572] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Not a JSON object: null
+[04Aug2026 21:40:05.573] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't read tag list flansmod:gun_createloveandwar from flansmod:tags/items/gun_createloveandwar.json in data pack createloveandwar-0.1-1.20.1.jar
+java.lang.RuntimeException: Not a JSON object: null
+	at com.mojang.serialization.DataResult.lambda$getOrThrow$5(DataResult.java:101) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Right.map(Either.java:99) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.getOrThrow(DataResult.java:93) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at net.minecraft.tags.TagLoader.m_144495_(TagLoader.java:53) ~[server-1.20.1-20230612.114412-srg.jar%23259!/:?]
+	at net.minecraft.tags.TagLoader.m_203900_(TagLoader.java:114) ~[server-1.20.1-20230612.114412-srg.jar%23259!/:?]
+	at net.minecraft.tags.TagManager.m_203920_(TagManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23259!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[04Aug2026 21:40:05.655] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag minecraft:creeper_drop_music_discs as it is missing following references: createloveandwar:music_disc_midnight (from createloveandwar-0.1-1.20.1.jar)
+[04Aug2026 21:40:05.655] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag minecraft:music_discs as it is missing following references: #minecraft:creeper_drop_music_discs (from vanilla), 
+	createloveandwar:music_disc_midnight (from createloveandwar-0.1-1.20.1.jar)
+[04Aug2026 21:40:05.658] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag minecraft:fan_transparent as it is missing following references: create:void_steel_bars (from createutilities-0.3.0+1.20.1.jar)
+[04Aug2026 21:40:05.660] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag creategoggles:modifier/goggle_incompatible as it is missing following references: mekanism:mekasuit_helmet (from creategoggles-1.20.1-0.5.5.g-[FORGE].jar)
+[04Aug2026 21:40:05.661] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag flansmod:gun as it is missing following references: createloveandwar:martini_henry (from createloveandwar-0.1-1.20.1.jar)
+[04Aug2026 21:40:05.665] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag minecraft:trimmable_armor as it is missing following references: createloveandwar:dimensional_helmet (from createloveandwar-0.1-1.20.1.jar), 
+	createloveandwar:dimensional_chestplate (from createloveandwar-0.1-1.20.1.jar)
+[04Aug2026 21:40:05.675] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag create:blaze_burner_fuel/regular as it is missing following references: createloveandwar:diesel (from createloveandwar-0.1-1.20.1.jar), 
+	createloveandwar:gasoline (from createloveandwar-0.1-1.20.1.jar), 
+	createloveandwar:flowing_diesel (from createloveandwar-0.1-1.20.1.jar), 
+	createloveandwar:flowing_gasoline (from createloveandwar-0.1-1.20.1.jar), 
+	createloveandwar:gasoline_bucket (from createloveandwar-0.1-1.20.1.jar)
+[04Aug2026 21:40:05.678] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag minecraft:trim_materialss as it is missing following references: creategoggles:goggle_material (from creategoggles-1.20.1-0.5.5.g-[FORGE].jar)
+[04Aug2026 21:40:05.835] [Worker-Main-2/ERROR] [net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener/]: Couldn't parse data file create:compacting/rock_candys/blocks/chiseled_red_rock from create:recipes/compacting/rock_candys/blocks/chiseled_red_rock.json
+com.google.gson.JsonParseException: java.io.EOFException: End of input at line 1 column 1 path $
+	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:526) ~[server-1.20.1-20230612.114412-srg.jar%23259!/:?]
+	at net.minecraft.util.GsonHelper.m_263475_(GsonHelper.java:531) ~[server-1.20.1-20230612.114412-srg.jar%23259!/:?]
+	at net.minecraft.util.GsonHelper.m_13776_(GsonHelper.java:581) ~[server-1.20.1-20230612.114412-srg.jar%23259!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_278771_(SimpleJsonResourceReloadListener.java:41) ~[server-1.20.1-20230612.114412-srg.jar%23259!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_5944_(SimpleJsonResourceReloadListener.java:29) ~[server-1.20.1-20230612.114412-srg.jar%23259!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_5944_(SimpleJsonResourceReloadListener.java:17) ~[server-1.20.1-20230612.114412-srg.jar%23259!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10786_(SimplePreparableReloadListener.java:11) ~[server-1.20.1-20230612.114412-srg.jar%23259!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.io.EOFException: End of input at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.nextNonWhitespace(JsonReader.java:1455) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:558) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.stream.JsonReader.peek(JsonReader.java:433) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:769) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:725) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$34$1.read(TypeAdapters.java:1007) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:524) ~[server-1.20.1-20230612.114412-srg.jar%23259!/:?]
+	... 13 more
+[04Aug2026 21:40:06.086] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:irons_spellbooks:chests/catacombs/crypt_loot
+com.google.gson.JsonSyntaxException: Missing name, expected to find a string
+	at net.minecraft.util.GsonHelper.m_13906_(GsonHelper.java:127) ~[server-1.20.1-20230612.114412-srg.jar%23259!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootTableReference$Serializer.m_7267_(LootTableReference.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23259!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootTableReference$Serializer.m_7267_(LootTableReference.java:58) ~[server-1.20.1-20230612.114412-srg.jar%23259!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23259!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23259!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23259!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23259!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23259!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23259!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23259!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23259!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23259!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23259!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23259!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23259!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23259!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.4.0-universal.jar%23264!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.4.0-universal.jar%23264!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23259!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23259!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23259!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[04Aug2026 21:40:06.133] [Worker-Main-2/ERROR] [net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener/]: Couldn't parse data file createloveandwar:gun_fabrication/alof from createloveandwar:recipes/gun_fabrication/alof.json
+com.google.gson.JsonParseException: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 33 column 4 path $.ingredients[4]
+	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:526) ~[server-1.20.1-20230612.114412-srg.jar%23259!/:?]
+	at net.minecraft.util.GsonHelper.m_263475_(GsonHelper.java:531) ~[server-1.20.1-20230612.114412-srg.jar%23259!/:?]
+	at net.minecraft.util.GsonHelper.m_13776_(GsonHelper.java:581) ~[server-1.20.1-20230612.114412-srg.jar%23259!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_278771_(SimpleJsonResourceReloadListener.java:41) ~[server-1.20.1-20230612.114412-srg.jar%23259!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_5944_(SimpleJsonResourceReloadListener.java:29) ~[server-1.20.1-20230612.114412-srg.jar%23259!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_5944_(SimpleJsonResourceReloadListener.java:17) ~[server-1.20.1-20230612.114412-srg.jar%23259!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10786_(SimplePreparableReloadListener.java:11) ~[server-1.20.1-20230612.114412-srg.jar%23259!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 33 column 4 path $.ingredients[4]
+	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1657) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.stream.JsonReader.checkLenient(JsonReader.java:1463) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:569) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.stream.JsonReader.hasNext(JsonReader.java:422) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:779) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:725) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$34$1.read(TypeAdapters.java:1007) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:524) ~[server-1.20.1-20230612.114412-srg.jar%23259!/:?]
+	... 13 more
+[04Aug2026 21:40:06.827] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:irons_spellbooks:chests/citadel/citadel_tomes
+com.google.gson.JsonSyntaxException: Unknown type 'minecraft:set_written_book_pages'
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:99) ~[server-1.20.1-20230612.114412-srg.jar%23259!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23259!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23259!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:149) ~[server-1.20.1-20230612.114412-srg.jar%23259!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23259!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23259!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23259!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23259!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23259!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23259!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23259!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23259!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23259!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23259!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23259!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23259!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.4.0-universal.jar%23264!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.4.0-universal.jar%23264!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23259!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23259!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23259!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[04Aug2026 21:40:06.925] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:irons_spellbooks:chests/citadel/citadel_bookshelf}.pools[8].entries[0]: Unknown loot table called irons_spellbooks:chests/citadel/citadel_tomes
+[04Aug2026 21:40:06.972] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/pink_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
+[04Aug2026 21:40:06.980] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create_confectionery:chocolate_recipe_6: com.google.gson.JsonSyntaxException: Unknown item 'create_confectionery:chocolate_bricks_wall'
+[04Aug2026 21:40:06.981] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/barrel_duraplas recipe (createloveandwar:stamping/barrel_duraplas) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:06.986] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe design_decor:item_application/crushing_wheels/special_aluminum_cylinder: com.google.gson.JsonSyntaxException: Unknown item 'design_decor:aluminum_boiler'
+[04Aug2026 21:40:06.992] [main/WARN] [com.simibubi.create.Create/]: Your custom vintageimprovements:rolling/cast_iron_ingot recipe (vintageimprovements:rolling/cast_iron_ingot) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:06.996] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/electrum_ingot recipe (createaddition:rolling/electrum_ingot) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.002] [main/WARN] [com.simibubi.create.Create/]: Your custom vintageimprovements:rolling/bronze_plate recipe (vintageimprovements:rolling/bronze_plate) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.005] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/bolt_action_resin recipe (createloveandwar:stamping/bolt_action_resin) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.024] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/revolver_action_iron recipe (createloveandwar:stamping/revolver_action_iron) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.026] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/handguard_iron recipe (createloveandwar:stamping/handguard_iron) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.043] [main/WARN] [com.simibubi.create.Create/]: Your custom vintageimprovements:rolling/manyullyn_plate recipe (vintageimprovements:rolling/manyullyn_plate) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.048] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/stock_sturdy recipe (createloveandwar:stamping/stock_sturdy) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.054] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/lower_receiver_polymer recipe (createloveandwar:stamping/lower_receiver_polymer) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.071] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/white_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
+[04Aug2026 21:40:07.073] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create_bic_bit:compat/extruders/oil_extruding: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create_mechanical_extruder:extruding'
+[04Aug2026 21:40:07.073] [main/WARN] [com.simibubi.create.Create/]: Your custom vintageimprovements:rolling/tin_plate recipe (vintageimprovements:rolling/tin_plate) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.080] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/barrel_tungsten recipe (createloveandwar:stamping/barrel_tungsten) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.083] [main/WARN] [com.simibubi.create.Create/]: Your custom create:emptying recipe (create_dd:emptying/sap_from_jungle_log) has more item outputs (2) than supported (1).
+[04Aug2026 21:40:07.083] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/revolver_action_duraplas recipe (createloveandwar:stamping/revolver_action_duraplas) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.095] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/yellow_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
+[04Aug2026 21:40:07.095] [main/WARN] [com.simibubi.create.Create/]: Your custom vintageimprovements:rolling/vanadium_plate recipe (vintageimprovements:rolling/vanadium_plate) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.100] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/pink_concrete: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
+[04Aug2026 21:40:07.132] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/revolver_action_tungsten recipe (createloveandwar:stamping/revolver_action_tungsten) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.133] [main/WARN] [com.simibubi.create.Create/]: Your custom create:emptying recipe (create_dd:emptying/sap_from_acacia_wood) has more item outputs (2) than supported (1).
+[04Aug2026 21:40:07.141] [main/WARN] [com.simibubi.create.Create/]: Your custom vintageimprovements:rolling/osmium_plate recipe (vintageimprovements:rolling/osmium_plate) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.145] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe reliable_backpacks:backpack as it's serializer returned null
+[04Aug2026 21:40:07.145] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/upper_receiver_polymer recipe (createloveandwar:stamping/upper_receiver_polymer) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.155] [main/WARN] [com.simibubi.create.Create/]: Your custom vintageimprovements:rolling/brass_plate recipe (vintageimprovements:rolling/brass_plate) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.160] [main/WARN] [com.simibubi.create.Create/]: Your custom vintageimprovements:rolling/aluminum_ingot recipe (vintageimprovements:rolling/aluminum_ingot) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.162] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:drawing/grenade_casing recipe (createloveandwar:drawing/grenade_casing) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.163] [main/WARN] [com.simibubi.create.Create/]: Your custom vintageimprovements:rolling/invar_plate recipe (vintageimprovements:rolling/invar_plate) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.164] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/grip_brass recipe (createloveandwar:stamping/grip_brass) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.164] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/revolver_action_resin recipe (createloveandwar:stamping/revolver_action_resin) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.164] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create_things_and_misc:raboutan_sail_c_raft: com.google.gson.JsonSyntaxException: Unknown item 'nethers_exoticism:ramboutan_planks'
+[04Aug2026 21:40:07.164] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/gray_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
+[04Aug2026 21:40:07.166] [main/WARN] [com.simibubi.create.Create/]: Your custom vintageimprovements:rolling/enderium_plate recipe (vintageimprovements:rolling/enderium_plate) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.167] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/brass_ingot recipe (createaddition:rolling/brass_ingot) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.168] [main/WARN] [com.simibubi.create.Create/]: Your custom tfmg:industrial_blasting recipe (tfmg:industrial_blasting/steel) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.170] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/stock_polymer recipe (createloveandwar:stamping/stock_polymer) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.171] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/magenta_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
+[04Aug2026 21:40:07.171] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/barrel_brass recipe (createloveandwar:stamping/barrel_brass) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.171] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:drawing/brass_cup recipe (createloveandwar:drawing/brass_cup) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.177] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/bolt_action_netherite recipe (createloveandwar:stamping/bolt_action_netherite) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.182] [main/WARN] [com.simibubi.create.Create/]: Your custom vintageimprovements:rolling/amethyst_bronze_plate recipe (vintageimprovements:rolling/amethyst_bronze_plate) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.185] [main/WARN] [com.simibubi.create.Create/]: Your custom vintageimprovements:rolling/platinum_plate recipe (vintageimprovements:rolling/platinum_plate) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.189] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/stock_netherite recipe (createloveandwar:stamping/stock_netherite) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.194] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/upper_receiver_tungsten recipe (createloveandwar:stamping/upper_receiver_tungsten) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.195] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/bolt_action_brass recipe (createloveandwar:stamping/bolt_action_brass) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.202] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/bolt_action_tungsten recipe (createloveandwar:stamping/bolt_action_tungsten) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.206] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/iron_ingot recipe (createaddition:rolling/iron_ingot) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.206] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/barrel_netherite recipe (createloveandwar:stamping/barrel_netherite) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.211] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/lower_receiver_iron recipe (createloveandwar:stamping/lower_receiver_iron) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.213] [main/WARN] [com.simibubi.create.Create/]: Your custom vintageimprovements:rolling/steel_ingot recipe (vintageimprovements:rolling/steel_ingot) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.217] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/copper_ingot recipe (createaddition:rolling/copper_ingot) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.222] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/handguard_netherite recipe (createloveandwar:stamping/handguard_netherite) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.227] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe design_decor:item_application/millstones/special_aluminum_cylinder: com.google.gson.JsonSyntaxException: Unknown item 'design_decor:aluminum_boiler'
+[04Aug2026 21:40:07.229] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:drawing/rifle_casing recipe (createloveandwar:drawing/rifle_casing) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.230] [main/WARN] [com.simibubi.create.Create/]: Your custom vintageimprovements:rolling/refined_glowstone_plate recipe (vintageimprovements:rolling/refined_glowstone_plate) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.238] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/bolt_action_polymer recipe (createloveandwar:stamping/bolt_action_polymer) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.240] [main/WARN] [com.simibubi.create.Create/]: Your custom vintageimprovements:rolling/lead_plate recipe (vintageimprovements:rolling/lead_plate) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.241] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/upper_receiver_sturdy recipe (createloveandwar:stamping/upper_receiver_sturdy) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.249] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/handguard_brass recipe (createloveandwar:stamping/handguard_brass) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.250] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/handguard_tungsten recipe (createloveandwar:stamping/handguard_tungsten) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.251] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/grip_iron recipe (createloveandwar:stamping/grip_iron) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.251] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/lower_receiver_resin recipe (createloveandwar:stamping/lower_receiver_resin) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.257] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/lower_receiver_sturdy recipe (createloveandwar:stamping/lower_receiver_sturdy) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.262] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/grip_tungsten recipe (createloveandwar:stamping/grip_tungsten) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.263] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/grip_resin recipe (createloveandwar:stamping/grip_resin) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.263] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/barrel_polymer recipe (createloveandwar:stamping/barrel_polymer) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.264] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create_things_and_misc:chorus_sail_craft: com.google.gson.JsonSyntaxException: Unknown item 'unusualend:chorus_nest_planks'
+[04Aug2026 21:40:07.264] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/black_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
+[04Aug2026 21:40:07.264] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create_things_and_misc:jaboticaba_sail_craft: com.google.gson.JsonSyntaxException: Unknown item 'nethers_exoticism:jaboticaba_planks'
+[04Aug2026 21:40:07.265] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/upper_receiver_duraplas recipe (createloveandwar:stamping/upper_receiver_duraplas) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.273] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/stock_tungsten recipe (createloveandwar:stamping/stock_tungsten) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.273] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/stock_resin recipe (createloveandwar:stamping/stock_resin) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.274] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create_confectionery:ruby_chocolate_recipe_6: com.google.gson.JsonSyntaxException: Unknown item 'create_confectionery:ruby_chocolate_brick_wall'
+[04Aug2026 21:40:07.274] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/gold_ingot recipe (createaddition:rolling/gold_ingot) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.275] [main/WARN] [com.simibubi.create.Create/]: Your custom create:emptying recipe (create_dd:emptying/sap_from_oak_log) has more item outputs (2) than supported (1).
+[04Aug2026 21:40:07.275] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/upper_receiver_brass recipe (createloveandwar:stamping/upper_receiver_brass) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.275] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/cyan_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
+[04Aug2026 21:40:07.276] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/straw recipe (createaddition:rolling/straw) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.277] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/revolver_action_polymer recipe (createloveandwar:stamping/revolver_action_polymer) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.288] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/lower_receiver_tungsten recipe (createloveandwar:stamping/lower_receiver_tungsten) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.297] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/barrel_iron recipe (createloveandwar:stamping/barrel_iron) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.300] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/bolt_action_sturdy recipe (createloveandwar:stamping/bolt_action_sturdy) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.301] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:drawing/copper_cup recipe (createloveandwar:drawing/copper_cup) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.303] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create_things_and_misc:copper_scaffolding_craft: com.google.gson.JsonSyntaxException: Unknown item 'create_things_and_misc:deleted_mod_element'
+[04Aug2026 21:40:07.303] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/green_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
+[04Aug2026 21:40:07.305] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/light_gray_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
+[04Aug2026 21:40:07.305] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/handguard_polymer recipe (createloveandwar:stamping/handguard_polymer) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.308] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/revolver_action_netherite recipe (createloveandwar:stamping/revolver_action_netherite) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.308] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/grip_netherite recipe (createloveandwar:stamping/grip_netherite) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.312] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/grip_polymer recipe (createloveandwar:stamping/grip_polymer) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.313] [main/WARN] [com.simibubi.create.Create/]: Your custom vintageimprovements:rolling/hepatizon_plate recipe (vintageimprovements:rolling/hepatizon_plate) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.328] [main/WARN] [com.simibubi.create.Create/]: Your custom vintageimprovements:rolling/refined_obsidian_plate recipe (vintageimprovements:rolling/refined_obsidian_plate) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.334] [main/WARN] [com.simibubi.create.Create/]: Your custom create:emptying recipe (create_dd:emptying/sap_from_dark_oak_wood) has more item outputs (2) than supported (1).
+[04Aug2026 21:40:07.335] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/handguard_sturdy recipe (createloveandwar:stamping/handguard_sturdy) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.340] [main/WARN] [com.simibubi.create.Create/]: Your custom vintageimprovements:rolling/rhodium_plate recipe (vintageimprovements:rolling/rhodium_plate) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.341] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/lower_receiver_netherite recipe (createloveandwar:stamping/lower_receiver_netherite) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.342] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create_confectionery:black_chocolate_recipe_6: com.google.gson.JsonSyntaxException: Unknown item 'create_confectionery:black_chocolate_bricks_wall'
+[04Aug2026 21:40:07.343] [main/WARN] [com.simibubi.create.Create/]: Your custom vintageimprovements:rolling/palladium_plate recipe (vintageimprovements:rolling/palladium_plate) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.347] [main/WARN] [com.simibubi.create.Create/]: Your custom vintageimprovements:rolling/vanadium_ingot recipe (vintageimprovements:rolling/vanadium_ingot) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.348] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/lower_receiver_duraplas recipe (createloveandwar:stamping/lower_receiver_duraplas) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.363] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/lower_receiver_brass recipe (createloveandwar:stamping/lower_receiver_brass) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.364] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/upper_receiver_iron recipe (createloveandwar:stamping/upper_receiver_iron) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.364] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/red_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
+[04Aug2026 21:40:07.368] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/orange_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
+[04Aug2026 21:40:07.372] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/electrum_plate recipe (createaddition:rolling/electrum_plate) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.382] [main/WARN] [com.simibubi.create.Create/]: Your custom vintageimprovements:rolling/lumium_plate recipe (vintageimprovements:rolling/lumium_plate) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.383] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/stock_brass recipe (createloveandwar:stamping/stock_brass) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.384] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:drawing/pistol_casing recipe (createloveandwar:drawing/pistol_casing) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.392] [main/WARN] [com.simibubi.create.Create/]: Your custom vintageimprovements:rolling/tin_ingot recipe (vintageimprovements:rolling/tin_ingot) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.393] [main/WARN] [com.simibubi.create.Create/]: Your custom vintageimprovements:rolling/cobalt_plate recipe (vintageimprovements:rolling/cobalt_plate) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.394] [main/WARN] [com.simibubi.create.Create/]: Your custom vintageimprovements:rolling/cast_iron_plate recipe (vintageimprovements:rolling/cast_iron_plate) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.394] [main/WARN] [com.simibubi.create.Create/]: Your custom minecraft:createloveandwar recipe (createloveandwar:fractional_distillation/crude_oil) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.405] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/barrel_sturdy recipe (createloveandwar:stamping/barrel_sturdy) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.406] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create_confectionery:white_chocolate_recipe_6: com.google.gson.JsonSyntaxException: Unknown item 'create_confectionery:white_chocolate_bricks_wall'
+[04Aug2026 21:40:07.407] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/revolver_action_sturdy recipe (createloveandwar:stamping/revolver_action_sturdy) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.407] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/upper_receiver_netherite recipe (createloveandwar:stamping/upper_receiver_netherite) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.407] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/brown_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
+[04Aug2026 21:40:07.412] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create_things_and_misc:mangrove_sail_craft_backport: com.google.gson.JsonSyntaxException: Unknown item 'wildbackport:mangrove_planks'
+[04Aug2026 21:40:07.412] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:freezing/powder_snow: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'createsweetsandtreets:freezing'
+[04Aug2026 21:40:07.416] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/light_blue_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
+[04Aug2026 21:40:07.417] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe design_decor:crafting/copper_headlight: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:prismarine_crystal'
+[04Aug2026 21:40:07.417] [main/WARN] [com.simibubi.create.Create/]: Your custom tfmg:casting recipe (tfmg:casting/steel) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.418] [main/WARN] [com.simibubi.create.Create/]: Your custom tfmg:casting recipe (tfmg:casting/steel) has more fluid inputs (1) than supported (0).
+[04Aug2026 21:40:07.422] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/barrel_resin recipe (createloveandwar:stamping/barrel_resin) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.424] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/handguard_duraplas recipe (createloveandwar:stamping/handguard_duraplas) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.424] [main/WARN] [com.simibubi.create.Create/]: Your custom vintageimprovements:rolling/aluminum_plate recipe (vintageimprovements:rolling/aluminum_plate) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.428] [main/WARN] [com.simibubi.create.Create/]: Your custom vintageimprovements:rolling/rose_gold_plate recipe (vintageimprovements:rolling/rose_gold_plate) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.435] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/copper_plate recipe (createaddition:rolling/copper_plate) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.435] [main/WARN] [com.simibubi.create.Create/]: Your custom vintageimprovements:rolling/nickel_plate recipe (vintageimprovements:rolling/nickel_plate) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.437] [main/WARN] [com.simibubi.create.Create/]: Your custom vintageimprovements:rolling/uranium_plate recipe (vintageimprovements:rolling/uranium_plate) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.438] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/lime_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
+[04Aug2026 21:40:07.439] [main/WARN] [com.simibubi.create.Create/]: Your custom tfmg:coking recipe (tfmg:coking/coal_coke) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.442] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/grip_sturdy recipe (createloveandwar:stamping/grip_sturdy) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.442] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/purple_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
+[04Aug2026 21:40:07.443] [main/WARN] [com.simibubi.create.Create/]: Your custom vintageimprovements:rolling/silver_plate recipe (vintageimprovements:rolling/silver_plate) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.444] [main/WARN] [com.simibubi.create.Create/]: Your custom vintageimprovements:rolling/steel_plate recipe (vintageimprovements:rolling/steel_plate) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.448] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/iron_plate recipe (createaddition:rolling/iron_plate) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.452] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/upper_receiver_resin recipe (createloveandwar:stamping/upper_receiver_resin) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.452] [main/WARN] [com.simibubi.create.Create/]: Your custom create:emptying recipe (create_dd:emptying/sap_from_jungle_wood) has more item outputs (2) than supported (1).
+[04Aug2026 21:40:07.453] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/grip_duraplas recipe (createloveandwar:stamping/grip_duraplas) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.456] [main/WARN] [com.simibubi.create.Create/]: Your custom vintageimprovements:rolling/netherite_plate recipe (vintageimprovements:rolling/netherite_plate) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.461] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:mechanical_crafting/pumpjack_hammer_holder: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:pumpjack_hammer_holder'
+[04Aug2026 21:40:07.462] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/stock_duraplas recipe (createloveandwar:stamping/stock_duraplas) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.466] [main/WARN] [com.simibubi.create.Create/]: Your custom vintageimprovements:rolling/pure_gold_plate recipe (vintageimprovements:rolling/pure_gold_plate) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.467] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/blue_concrete_q: com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
+[04Aug2026 21:40:07.468] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/handguard_resin recipe (createloveandwar:stamping/handguard_resin) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.468] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/stock_iron recipe (createloveandwar:stamping/stock_iron) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.468] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create_things_and_misc:schematic_chair: com.google.gson.JsonSyntaxException: Unknown item 'create_things_and_misc:deleted_mod_element'
+[04Aug2026 21:40:07.471] [main/WARN] [com.simibubi.create.Create/]: Your custom create:emptying recipe (create_dd:emptying/sap_from_oak_wood) has more item outputs (2) than supported (1).
+[04Aug2026 21:40:07.471] [main/WARN] [com.simibubi.create.Create/]: Your custom create:emptying recipe (create_dd:emptying/sap_from_acacia_log) has more item outputs (2) than supported (1).
+[04Aug2026 21:40:07.472] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:drawing/artillery_casing recipe (createloveandwar:drawing/artillery_casing) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.473] [main/WARN] [com.simibubi.create.Create/]: Your custom create:emptying recipe (create_dd:emptying/sap_from_rubber_log) has more item outputs (2) than supported (1).
+[04Aug2026 21:40:07.477] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/bolt_action_iron recipe (createloveandwar:stamping/bolt_action_iron) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.478] [main/WARN] [com.simibubi.create.Create/]: Your custom vintageimprovements:rolling/signalum_plate recipe (vintageimprovements:rolling/signalum_plate) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.479] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/bolt_action_duraplas recipe (createloveandwar:stamping/bolt_action_duraplas) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.480] [main/WARN] [com.simibubi.create.Create/]: Your custom vintageimprovements:rolling/pig_iron_plate recipe (vintageimprovements:rolling/pig_iron_plate) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.480] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/gold_plate recipe (createaddition:rolling/gold_plate) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.480] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:filling/chocolate_bagutte: com.google.gson.JsonSyntaxException: Unknown item 'createsweetsandtreets:bagutte'
+[04Aug2026 21:40:07.480] [main/WARN] [com.simibubi.create.Create/]: Your custom create:emptying recipe (create_dd:emptying/sap_from_rubber_wood) has more item outputs (2) than supported (1).
+[04Aug2026 21:40:07.481] [main/WARN] [com.simibubi.create.Create/]: Your custom createloveandwar:stamping/revolver_action_brass recipe (createloveandwar:stamping/revolver_action_brass) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.487] [main/WARN] [com.simibubi.create.Create/]: Your custom vintageimprovements:rolling/constantan_plate recipe (vintageimprovements:rolling/constantan_plate) specified a duration. Durations have no impact on this type of recipe.
+[04Aug2026 21:40:07.489] [main/WARN] [com.simibubi.create.Create/]: Your custom create:emptying recipe (create_dd:emptying/sap_from_dark_oak_log) has more item outputs (2) than supported (1).
+[04Aug2026 21:40:07.499] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 66 recipes
+[04Aug2026 21:40:07.503] [main/INFO] [com.possible_triangle.sliceanddice.SliceAndDice/]: Injecting recipes
+[04Aug2026 21:40:07.558] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement create_central_kitchen:recipes/crafting/sap_bottles_from_bucket: Unknown item id 'create_central_kitchen:sap_bucket'
+[04Aug2026 21:40:07.570] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement createloveandwar:recipes/misc/robot_dog_spawn_egg: Unknown item id 'createloveandwar:dimensional_rift'
+[04Aug2026 21:40:07.591] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement create_central_kitchen:recipes/crafting/sap_bucket_from_bottles: Unknown item id 'autumnity:sap_bottle'
+[04Aug2026 21:40:07.643] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement create_dd:flywheel: Failed to parse 'location' field
+[04Aug2026 21:40:07.653] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement cccbridge:place_animatronic: Failed to parse 'location' field
+[04Aug2026 21:40:07.681] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement cccbridge:place_redrouter: Failed to parse 'location' field
+[04Aug2026 21:40:07.695] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement createsweetsandtreets:brass_cookin: Expected item to be an item, was unknown string 'createsweetsandtreets:deleted_mod_element'
+[04Aug2026 21:40:07.741] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 5176 advancements
+[04Aug2026 21:40:07.757] [main/ERROR] [com.flansmod.common.FlansMod/]: Failed to parse JsonNode "flansmod:flansmod:revolver_close_rattle" into flansmod:null as ResourceLocation due to exception: net.minecraft.ResourceLocationException: Non [a-z0-9/._-] character in path of location: flansmod:flansmod:revolver_close_rattle
+[04Aug2026 21:40:07.757] [main/ERROR] [com.flansmod.common.FlansMod/]: Failed to parse JsonNode {"sound":"flansmod:flansmod:revolver_close_rattle","length":0.0,"minPitchMultiplier":1.0,"maxPitchMultiplier":1.0,"minVolume":1.0,"maxVolume":1.0,"maxRange":100.0,"LODs":[]} into com.flansmod.common.types.elements.SoundDefinition@432f0ca7 as class com.flansmod.common.types.elements.SoundDefinition due to exception: net.minecraft.ResourceLocationException: Non [a-z0-9/._-] character in path of location: flansmod:flansmod:revolver_close_rattle
+[04Aug2026 21:40:07.757] [main/ERROR] [com.flansmod.common.FlansMod/]: Failed to parse JsonNode [{"sound":"flansmod:flansmod:revolver_close_rattle","length":0.0,"minPitchMultiplier":1.0,"maxPitchMultiplier":1.0,"minVolume":1.0,"maxVolume":1.0,"maxRange":100.0,"LODs":[]}] into [Lcom.flansmod.common.types.elements.SoundDefinition;@2e134e0e as class com.flansmod.common.types.elements.SoundDefinition[] due to exception: net.minecraft.ResourceLocationException: Non [a-z0-9/._-] character in path of location: flansmod:flansmod:revolver_close_rattle
+[04Aug2026 21:40:07.758] [main/ERROR] [com.flansmod.common.FlansMod/]: Failed to parse JsonNode {"actionType":"PlaySound","duration":0.65200007,"sounds":[{"sound":"flansmod:flansmod:revolver_close_rattle","length":0.0,"minPitchMultiplier":1.0,"maxPitchMultiplier":1.0,"minVolume":1.0,"maxVolume":1.0,"maxRange":100.0,"LODs":[]}],"itemStack":"","modifiers":[],"fovFactor":1.25,"scopeOverlay":"","anim":"reload_end","toolLevel":1.0,"harvestSpeed":1.0,"reach":1.0} into com.flansmod.common.types.guns.elements.ActionDefinition@27bda70e as class com.flansmod.common.types.guns.elements.ActionDefinition due to exception: net.minecraft.ResourceLocationException: Non [a-z0-9/._-] character in path of location: flansmod:flansmod:revolver_close_rattle
+[04Aug2026 21:40:07.758] [main/ERROR] [com.flansmod.common.FlansMod/]: Failed to parse JsonNode [{"actionType":"Animation","duration":0.5,"sounds":[],"itemStack":"","modifiers":[],"fovFactor":1.25,"scopeOverlay":"","anim":"reload_end","toolLevel":1.0,"harvestSpeed":1.0,"reach":1.0},{"actionType":"PlaySound","duration":0.65200007,"sounds":[{"sound":"flansmod:flansmod:revolver_close_rattle","length":0.0,"minPitchMultiplier":1.0,"maxPitchMultiplier":1.0,"minVolume":1.0,"maxVolume":1.0,"maxRange":100.0,"LODs":[]}],"itemStack":"","modifiers":[],"fovFactor":1.25,"scopeOverlay":"","anim":"reload_end","toolLevel":1.0,"harvestSpeed":1.0,"reach":1.0}] into [Lcom.flansmod.common.types.guns.elements.ActionDefinition;@32667ad4 as class com.flansmod.common.types.guns.elements.ActionDefinition[] due to exception: net.minecraft.ResourceLocationException: Non [a-z0-9/._-] character in path of location: flansmod:flansmod:revolver_close_rattle
+[04Aug2026 21:40:07.759] [main/ERROR] [com.flansmod.common.FlansMod/]: Failed to parse JsonNode {"key":"reload_primary_end","canActUnderwater":true,"canActUnderOtherLiquid":false,"canBeOverriden":false,"twoHanded":false,"repeatMode":"SemiAuto","repeatDelay":0.0,"repeatCount":0,"spinUpDuration":1.0,"loudness":150.0,"actions":[{"actionType":"Animation","duration":0.5,"sounds":[],"itemStack":"","modifiers":[],"fovFactor":1.25,"scopeOverlay":"","anim":"reload_end","toolLevel":1.0,"harvestSpeed":1.0,"reach":1.0},{"actionType":"PlaySound","duration":0.65200007,"sounds":[{"sound":"flansmod:flansmod:revolver_close_rattle","length":0.0,"minPitchMultiplier":1.0,"maxPitchMultiplier":1.0,"minVolume":1.0,"maxVolume":1.0,"maxRange":100.0,"LODs":[]}],"itemStack":"","modifiers":[],"fovFactor":1.25,"scopeOverlay":"","anim":"reload_end","toolLevel":1.0,"harvestSpeed":1.0,"reach":1.0}]} into com.flansmod.common.types.guns.elements.ActionGroupDefinition@997120b as class com.flansmod.common.types.guns.elements.ActionGroupDefinition due to exception: net.minecraft.ResourceLocationException: Non [a-z0-9/._-] character in path of location: flansmod:flansmod:revolver_close_rattle
+[04Aug2026 21:40:07.762] [main/ERROR] [com.flansmod.common.FlansMod/]: Failed to parse JsonNode [{"key":"primary_fire","canActUnderwater":true,"canActUnderOtherLiquid":false,"canBeOverriden":true,"twoHanded":false,"repeatMode":"SemiAuto","repeatDelay":0.3,"repeatCount":1,"spinUpDuration":1.5,"loudness":150.0,"actions":[{"actionType":"Shoot","duration":1.0,"sounds":[],"itemStack":"","modifiers":[{"Stat":"vertical_recoil","Filter":"","Add":0.0,"Multiply":25.0,"SetValue":"","ApplyFilters":[]},{"Stat":"spread","Filter":"","Add":0.0,"Multiply":2.0,"SetValue":"","ApplyFilters":[]},{"Stat":"speed","Filter":"","Add":0.0,"Multiply":0.0,"SetValue":"","ApplyFilters":[]},{"Stat":"bullet_count","Filter":"","Add":0.0,"Multiply":1.0,"SetValue":"","ApplyFilters":[]},{"Stat":"impact_damage","Filter":"","Add":0.0,"Multiply":6.0,"SetValue":"","ApplyFilters":[]},{"Stat":"knockback","Filter":"","Add":0.0,"Multiply":0.0,"SetValue":"","ApplyFilters":[]}],"fovFactor":1.0,"scopeOverlay":"","anim":"","toolLevel":1.0,"harvestSpeed":1.0,"reach":5.0},{"actionType":"PlaySound","duration":0.0,"sounds":[{"sound":"flansmod:gunshot_ptoo","length":0.0,"minPitchMultiplier":0.8333333,"maxPitchMultiplier":1.25,"minVolume":1.0,"maxVolume":1.0,"maxRange":100.0,"LODs":[]}],"itemStack":"","modifiers":[],"fovFactor":1.25,"scopeOverlay":"","anim":"","toolLevel":1.0,"harvestSpeed":1.0,"reach":1.0},{"actionType":"Animation","duration":0.4,"sounds":[],"itemStack":"","modifiers":[],"fovFactor":1.25,"scopeOverlay":"","anim":"shoot","toolLevel":1.0,"harvestSpeed":1.0,"reach":1.0}]},{"key":"ads","canActUnderwater":true,"canActUnderOtherLiquid":false,"canBeOverriden":true,"twoHanded":false,"repeatMode":"Toggle","repeatDelay":0.05,"repeatCount":3,"spinUpDuration":1.5,"loudness":150.0,"actions":[{"actionType":"AimDownSights","duration":0.0,"sounds":[],"itemStack":"","modifiers":[],"fovFactor":1.0,"scopeOverlay":"flansvendersgame:phantek_4x_scope","anim":"","toolLevel":1.0,"harvestSpeed":1.0,"reach":1.0}]},{"key":"look","canActUnderwater":true,"canActUnderOtherLiquid":false,"canBeOverriden":false,"twoHanded":false,"repeatMode":"SemiAuto","repeatDelay":0.0,"repeatCount":0,"spinUpDuration":1.0,"loudness":150.0,"actions":[{"actionType":"Animation","duration":2.5,"sounds":[],"itemStack":"","modifiers":[],"fovFactor":1.25,"scopeOverlay":"","anim":"look_at","toolLevel":1.0,"harvestSpeed":1.0,"reach":1.0}]},{"key":"reload_primary_start","canActUnderwater":true,"canActUnderOtherLiquid":false,"canBeOverriden":false,"twoHanded":false,"repeatMode":"SemiAuto","repeatDelay":0.0,"repeatCount":0,"spinUpDuration":1.0,"loudness":150.0,"actions":[{"actionType":"Animation","duration":0.75,"sounds":[],"itemStack":"","modifiers":[],"fovFactor":1.25,"scopeOverlay":"","anim":"reload_start","toolLevel":1.0,"harvestSpeed":1.0,"reach":1.0},{"actionType":"PlaySound","duration":0.0,"sounds":[{"sound":"flansmod:revolver_open_rattle","length":1.0,"minPitchMultiplier":1.0,"maxPitchMultiplier":1.0,"minVolume":1.0,"maxVolume":1.0,"maxRange":100.0,"LODs":[]}],"itemStack":"","modifiers":[],"fovFactor":1.25,"scopeOverlay":"","anim":"","toolLevel":1.0,"harvestSpeed":1.0,"reach":1.0}]},{"key":"reload_primary_eject","canActUnderwater":true,"canActUnderOtherLiquid":false,"canBeOverriden":false,"twoHanded":false,"repeatMode":"SemiAuto","repeatDelay":0.0,"repeatCount":0,"spinUpDuration":1.0,"loudness":150.0,"actions":[{"actionType":"Animation","duration":0.5,"sounds":[],"itemStack":"","modifiers":[],"fovFactor":1.25,"scopeOverlay":"","anim":"reload_eject","toolLevel":1.0,"harvestSpeed":1.0,"reach":1.0},{"actionType":"PlaySound","duration":1.116,"sounds":[{"sound":"flansmod:magazine_unload_latch","length":1.0,"minPitchMultiplier":0.75,"maxPitchMultiplier":0.75,"minVolume":1.0,"maxVolume":1.0,"maxRange":100.0,"LODs":[]}],"itemStack":"","modifiers":[],"fovFactor":1.25,"scopeOverlay":"","anim":"reload_eject","toolLevel":1.0,"harvestSpeed":1.0,"reach":1.0}]},{"key":"reload_primary_load_one","canActUnderwater":true,"canActUnderOtherLiquid":false,"canBeOverriden":false,"twoHanded":false,"repeatMode":"SemiAuto","repeatDelay":0.0,"repeatCount":0,"spinUpDuration":1.0,"loudness":150.0,"actions":[{"actionType":"Animation","duration":1.25,"sounds":[],"itemStack":"","modifiers":[],"fovFactor":1.25,"scopeOverlay":"","anim":"reload_load_one","toolLevel":1.0,"harvestSpeed":1.0,"reach":1.0},{"actionType":"PlaySound","duration":0.558,"sounds":[{"sound":"flansmod:revolver_turn_rattle","length":1.0,"minPitchMultiplier":0.75,"maxPitchMultiplier":0.75,"minVolume":1.0,"maxVolume":1.0,"maxRange":100.0,"LODs":[]}],"itemStack":"","modifiers":[],"fovFactor":1.25,"scopeOverlay":"","anim":"reload_load_one","toolLevel":1.0,"harvestSpeed":1.0,"reach":1.0}]},{"key":"reload_primary_end","canActUnderwater":true,"canActUnderOtherLiquid":false,"canBeOverriden":false,"twoHanded":false,"repeatMode":"SemiAuto","repeatDelay":0.0,"repeatCount":0,"spinUpDuration":1.0,"loudness":150.0,"actions":[{"actionType":"Animation","duration":0.5,"sounds":[],"itemStack":"","modifiers":[],"fovFactor":1.25,"scopeOverlay":"","anim":"reload_end","toolLevel":1.0,"harvestSpeed":1.0,"reach":1.0},{"actionType":"PlaySound","duration":0.65200007,"sounds":[{"sound":"flansmod:flansmod:revolver_close_rattle","length":0.0,"minPitchMultiplier":1.0,"maxPitchMultiplier":1.0,"minVolume":1.0,"maxVolume":1.0,"maxRange":100.0,"LODs":[]}],"itemStack":"","modifiers":[],"fovFactor":1.25,"scopeOverlay":"","anim":"reload_end","toolLevel":1.0,"harvestSpeed":1.0,"reach":1.0}]}] into [Lcom.flansmod.common.types.guns.elements.ActionGroupDefinition;@3d404e09 as class com.flansmod.common.types.guns.elements.ActionGroupDefinition[] due to exception: net.minecraft.ResourceLocationException: Non [a-z0-9/._-] character in path of location: flansmod:flansmod:revolver_close_rattle
+[04Aug2026 21:40:07.763] [main/ERROR] [com.flansmod.common.FlansMod/]: Failed to parse JsonNode {"itemSettings":{"maxStackSize":1,"tags":["flansmod:gun"]},"paints":{"paintjobs":[]},"inputHandlers":[{"inputType":"Fire1","nodes":[{"actionGroupToTrigger":"primary_fire","modalCheck":"","canTriggerWhileReloading":false,"deferToAttachment":false,"attachmentType":"Generic","attachmentIndex":0,"andContinueEvaluating":false},{"actionGroupToTrigger":"reload_primary_start","modalCheck":"","canTriggerWhileReloading":false,"deferToAttachment":false,"attachmentType":"Generic","attachmentIndex":0,"andContinueEvaluating":false}]},{"inputType":"Fire2","nodes":[{"actionGroupToTrigger":"","modalCheck":"","canTriggerWhileReloading":false,"deferToAttachment":true,"attachmentType":"Sights","attachmentIndex":0,"andContinueEvaluating":false},{"actionGroupToTrigger":"","modalCheck":"","canTriggerWhileReloading":false,"deferToAttachment":true,"attachmentType":"Grip","attachmentIndex":0,"andContinueEvaluating":false},{"actionGroupToTrigger":"ads","modalCheck":"","canTriggerWhileReloading":true,"deferToAttachment":false,"attachmentType":"Generic","attachmentIndex":0,"andContinueEvaluating":false}]},{"inputType":"SpecialKey1","nodes":[{"actionGroupToTrigger":"look","modalCheck":"","canTriggerWhileReloading":false,"deferToAttachment":false,"attachmentType":"Generic","attachmentIndex":0,"andContinueEvaluating":false}]},{"inputType":"Reload1","nodes":[{"actionGroupToTrigger":"reload_primary_start","modalCheck":"","canTriggerWhileReloading":false,"deferToAttachment":true,"attachmentType":"Barrel","attachmentIndex":0,"andContinueEvaluating":false},{"actionGroupToTrigger":"reload_primary_start","modalCheck":"","canTriggerWhileReloading":false,"deferToAttachment":false,"attachmentType":"Generic","attachmentIndex":0,"andContinueEvaluating":false}]},{"inputType":"SpecialKey2","nodes":[{"actionGroupToTrigger":"gadget_button","modalCheck":"","canTriggerWhileReloading":false,"deferToAttachment":true,"attachmentType":"Barrel","attachmentIndex":0,"andContinueEvaluating":true},{"actionGroupToTrigger":"gadget_button","modalCheck":"","canTriggerWhileReloading":false,"deferToAttachment":true,"attachmentType":"Sights","attachmentIndex":0,"andContinueEvaluating":true},{"actionGroupToTrigger":"gadget_button","modalCheck":"","canTriggerWhileReloading":false,"deferToAttachment":true,"attachmentType":"Stock","attachmentIndex":0,"andContinueEvaluating":true},{"actionGroupToTrigger":"gadget_button","modalCheck":"","canTriggerWhileReloading":false,"deferToAttachment":true,"attachmentType":"Grip","attachmentIndex":0,"andContinueEvaluating":true}]}],"actionGroups":[{"key":"primary_fire","canActUnderwater":true,"canActUnderOtherLiquid":false,"canBeOverriden":true,"twoHanded":false,"repeatMode":"SemiAuto","repeatDelay":0.3,"repeatCount":1,"spinUpDuration":1.5,"loudness":150.0,"actions":[{"actionType":"Shoot","duration":1.0,"sounds":[],"itemStack":"","modifiers":[{"Stat":"vertical_recoil","Filter":"","Add":0.0,"Multiply":25.0,"SetValue":"","ApplyFilters":[]},{"Stat":"spread","Filter":"","Add":0.0,"Multiply":2.0,"SetValue":"","ApplyFilters":[]},{"Stat":"speed","Filter":"","Add":0.0,"Multiply":0.0,"SetValue":"","ApplyFilters":[]},{"Stat":"bullet_count","Filter":"","Add":0.0,"Multiply":1.0,"SetValue":"","ApplyFilters":[]},{"Stat":"impact_damage","Filter":"","Add":0.0,"Multiply":6.0,"SetValue":"","ApplyFilters":[]},{"Stat":"knockback","Filter":"","Add":0.0,"Multiply":0.0,"SetValue":"","ApplyFilters":[]}],"fovFactor":1.0,"scopeOverlay":"","anim":"","toolLevel":1.0,"harvestSpeed":1.0,"reach":5.0},{"actionType":"PlaySound","duration":0.0,"sounds":[{"sound":"flansmod:gunshot_ptoo","length":0.0,"minPitchMultiplier":0.8333333,"maxPitchMultiplier":1.25,"minVolume":1.0,"maxVolume":1.0,"maxRange":100.0,"LODs":[]}],"itemStack":"","modifiers":[],"fovFactor":1.25,"scopeOverlay":"","anim":"","toolLevel":1.0,"harvestSpeed":1.0,"reach":1.0},{"actionType":"Animation","duration":0.4,"sounds":[],"itemStack":"","modifiers":[],"fovFactor":1.25,"scopeOverlay":"","anim":"shoot","toolLevel":1.0,"harvestSpeed":1.0,"reach":1.0}]},{"key":"ads","canActUnderwater":true,"canActUnderOtherLiquid":false,"canBeOverriden":true,"twoHanded":false,"repeatMode":"Toggle","repeatDelay":0.05,"repeatCount":3,"spinUpDuration":1.5,"loudness":150.0,"actions":[{"actionType":"AimDownSights","duration":0.0,"sounds":[],"itemStack":"","modifiers":[],"fovFactor":1.0,"scopeOverlay":"flansvendersgame:phantek_4x_scope","anim":"","toolLevel":1.0,"harvestSpeed":1.0,"reach":1.0}]},{"key":"look","canActUnderwater":true,"canActUnderOtherLiquid":false,"canBeOverriden":false,"twoHanded":false,"repeatMode":"SemiAuto","repeatDelay":0.0,"repeatCount":0,"spinUpDuration":1.0,"loudness":150.0,"actions":[{"actionType":"Animation","duration":2.5,"sounds":[],"itemStack":"","modifiers":[],"fovFactor":1.25,"scopeOverlay":"","anim":"look_at","toolLevel":1.0,"harvestSpeed":1.0,"reach":1.0}]},{"key":"reload_primary_start","canActUnderwater":true,"canActUnderOtherLiquid":false,"canBeOverriden":false,"twoHanded":false,"repeatMode":"SemiAuto","repeatDelay":0.0,"repeatCount":0,"spinUpDuration":1.0,"loudness":150.0,"actions":[{"actionType":"Animation","duration":0.75,"sounds":[],"itemStack":"","modifiers":[],"fovFactor":1.25,"scopeOverlay":"","anim":"reload_start","toolLevel":1.0,"harvestSpeed":1.0,"reach":1.0},{"actionType":"PlaySound","duration":0.0,"sounds":[{"sound":"flansmod:revolver_open_rattle","length":1.0,"minPitchMultiplier":1.0,"maxPitchMultiplier":1.0,"minVolume":1.0,"maxVolume":1.0,"maxRange":100.0,"LODs":[]}],"itemStack":"","modifiers":[],"fovFactor":1.25,"scopeOverlay":"","anim":"","toolLevel":1.0,"harvestSpeed":1.0,"reach":1.0}]},{"key":"reload_primary_eject","canActUnderwater":true,"canActUnderOtherLiquid":false,"canBeOverriden":false,"twoHanded":false,"repeatMode":"SemiAuto","repeatDelay":0.0,"repeatCount":0,"spinUpDuration":1.0,"loudness":150.0,"actions":[{"actionType":"Animation","duration":0.5,"sounds":[],"itemStack":"","modifiers":[],"fovFactor":1.25,"scopeOverlay":"","anim":"reload_eject","toolLevel":1.0,"harvestSpeed":1.0,"reach":1.0},{"actionType":"PlaySound","duration":1.116,"sounds":[{"sound":"flansmod:magazine_unload_latch","length":1.0,"minPitchMultiplier":0.75,"maxPitchMultiplier":0.75,"minVolume":1.0,"maxVolume":1.0,"maxRange":100.0,"LODs":[]}],"itemStack":"","modifiers":[],"fovFactor":1.25,"scopeOverlay":"","anim":"reload_eject","toolLevel":1.0,"harvestSpeed":1.0,"reach":1.0}]},{"key":"reload_primary_load_one","canActUnderwater":true,"canActUnderOtherLiquid":false,"canBeOverriden":false,"twoHanded":false,"repeatMode":"SemiAuto","repeatDelay":0.0,"repeatCount":0,"spinUpDuration":1.0,"loudness":150.0,"actions":[{"actionType":"Animation","duration":1.25,"sounds":[],"itemStack":"","modifiers":[],"fovFactor":1.25,"scopeOverlay":"","anim":"reload_load_one","toolLevel":1.0,"harvestSpeed":1.0,"reach":1.0},{"actionType":"PlaySound","duration":0.558,"sounds":[{"sound":"flansmod:revolver_turn_rattle","length":1.0,"minPitchMultiplier":0.75,"maxPitchMultiplier":0.75,"minVolume":1.0,"maxVolume":1.0,"maxRange":100.0,"LODs":[]}],"itemStack":"","modifiers":[],"fovFactor":1.25,"scopeOverlay":"","anim":"reload_load_one","toolLevel":1.0,"harvestSpeed":1.0,"reach":1.0}]},{"key":"reload_primary_end","canActUnderwater":true,"canActUnderOtherLiquid":false,"canBeOverriden":false,"twoHanded":false,"repeatMode":"SemiAuto","repeatDelay":0.0,"repeatCount":0,"spinUpDuration":1.0,"loudness":150.0,"actions":[{"actionType":"Animation","duration":0.5,"sounds":[],"itemStack":"","modifiers":[],"fovFactor":1.25,"scopeOverlay":"","anim":"reload_end","toolLevel":1.0,"harvestSpeed":1.0,"reach":1.0},{"actionType":"PlaySound","duration":0.65200007,"sounds":[{"sound":"flansmod:flansmod:revolver_close_rattle","length":0.0,"minPitchMultiplier":1.0,"maxPitchMultiplier":1.0,"minVolume":1.0,"maxVolume":1.0,"maxRange":100.0,"LODs":[]}],"itemStack":"","modifiers":[],"fovFactor":1.25,"scopeOverlay":"","anim":"reload_end","toolLevel":1.0,"harvestSpeed":1.0,"reach":1.0}]}],"magazines":[{"key":"primary","matchByNames":[],"matchByTags":["createloveandwar:mars"],"baseCostToSwap":0}],"reloads":[{"key":"primary_fire","manualReloadAllowed":true,"autoReloadWhenEmpty":true,"startActionKey":"reload_primary_start","ejectActionKey":"reload_primary_eject","loadOneActionKey":"reload_primary_load_one","endActionKey":"reload_primary_end"}],"modes":[],"loopingSounds":[],"barrelAttachments":{"matchNames":[],"matchTags":[],"numAttachmentSlots":1,"hideDefaultMesh":true},"gripAttachments":{"matchNames":[],"matchTags":[],"numAttachmentSlots":0,"hideDefaultMesh":true},"stockAttachments":{"matchNames":[],"matchTags":[],"numAttachmentSlots":0,"hideDefaultMesh":true},"scopeAttachments":{"matchNames":[],"matchTags":[],"numAttachmentSlots":1,"hideDefaultMesh":true},"genericAttachments":{"matchNames":[],"matchTags":[],"numAttachmentSlots":0,"hideDefaultMesh":true},"modelParts":[],"animationSet":"createloveandwar:mars"} into gun@[createloveandwar:mars] as class com.flansmod.common.types.guns.GunDefinition due to exception: net.minecraft.ResourceLocationException: Non [a-z0-9/._-] character in path of location: flansmod:flansmod:revolver_close_rattle
+[04Aug2026 21:40:07.764] [main/ERROR] [com.flansmod.common.FlansMod/]: Failed to load createloveandwar:mars
+[04Aug2026 21:40:07.764] [main/ERROR] [com.flansmod.common.FlansMod/]: Non [a-z0-9/._-] character in path of location: flansmod:flansmod:revolver_close_rattle
+[04Aug2026 21:40:07.764] [main/ERROR] [com.flansmod.common.FlansMod/]: TRANSFORMER/minecraft@1.20.1/net.minecraft.resources.ResourceLocation.m_245185_(ResourceLocation.java:242)
+[04Aug2026 21:40:07.764] [main/ERROR] [com.flansmod.common.FlansMod/]: TRANSFORMER/minecraft@1.20.1/net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:40)
+[04Aug2026 21:40:07.764] [main/ERROR] [com.flansmod.common.FlansMod/]: TRANSFORMER/minecraft@1.20.1/net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:44)
+[04Aug2026 21:40:07.764] [main/ERROR] [com.flansmod.common.FlansMod/]: TRANSFORMER/minecraft@1.20.1/net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:50)
+[04Aug2026 21:40:07.764] [main/ERROR] [com.flansmod.common.FlansMod/]: TRANSFORMER/flansmod@0.4/com.flansmod.common.types.DefinitionParser.lambda$static$9(DefinitionParser.java:96)
+[04Aug2026 21:40:07.764] [main/ERROR] [com.flansmod.common.FlansMod/]: TRANSFORMER/flansmod@0.4/com.flansmod.common.types.DefinitionParser$ClassDeserializer.Parse(DefinitionParser.java:371)
+[04Aug2026 21:40:07.764] [main/ERROR] [com.flansmod.common.FlansMod/]: TRANSFORMER/flansmod@0.4/com.flansmod.common.types.DefinitionParser$ListDeserializer.Parse(DefinitionParser.java:205)
+[04Aug2026 21:40:07.764] [main/ERROR] [com.flansmod.common.FlansMod/]: TRANSFORMER/flansmod@0.4/com.flansmod.common.types.DefinitionParser$ClassDeserializer.Parse(DefinitionParser.java:371)
+[04Aug2026 21:40:07.764] [main/ERROR] [com.flansmod.common.FlansMod/]: TRANSFORMER/flansmod@0.4/com.flansmod.common.types.DefinitionParser$ListDeserializer.Parse(DefinitionParser.java:205)
+[04Aug2026 21:40:07.764] [main/ERROR] [com.flansmod.common.FlansMod/]: TRANSFORMER/flansmod@0.4/com.flansmod.common.types.DefinitionParser$ClassDeserializer.Parse(DefinitionParser.java:371)
+[04Aug2026 21:40:07.764] [main/ERROR] [com.flansmod.common.FlansMod/]: TRANSFORMER/flansmod@0.4/com.flansmod.common.types.DefinitionParser$ListDeserializer.Parse(DefinitionParser.java:205)
+[04Aug2026 21:40:07.764] [main/ERROR] [com.flansmod.common.FlansMod/]: TRANSFORMER/flansmod@0.4/com.flansmod.common.types.DefinitionParser$ClassDeserializer.Parse(DefinitionParser.java:371)
+[04Aug2026 21:40:07.764] [main/ERROR] [com.flansmod.common.FlansMod/]: TRANSFORMER/flansmod@0.4/com.flansmod.common.types.DefinitionParser.LoadFromJSON(DefinitionParser.java:394)
+[04Aug2026 21:40:07.765] [main/ERROR] [com.flansmod.common.FlansMod/]: TRANSFORMER/flansmod@0.4/com.flansmod.common.types.Definitions.lambda$apply$0(Definitions.java:104)
+[04Aug2026 21:40:07.765] [main/ERROR] [com.flansmod.common.FlansMod/]: java.base/java.util.HashMap.forEach(HashMap.java:1421)
+[04Aug2026 21:40:07.765] [main/ERROR] [com.flansmod.common.FlansMod/]: TRANSFORMER/flansmod@0.4/com.flansmod.common.types.Definitions.apply(Definitions.java:98)
+[04Aug2026 21:40:07.766] [main/ERROR] [com.flansmod.common.FlansMod/]: TRANSFORMER/flansmod@0.4/com.flansmod.common.types.Definitions.m_5787_(Definitions.java:20)
+[04Aug2026 21:40:07.766] [main/ERROR] [com.flansmod.common.FlansMod/]: TRANSFORMER/minecraft@1.20.1/net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13)
+[04Aug2026 21:40:07.770] [main/ERROR] [com.flansmod.common.FlansMod/]: java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
+[04Aug2026 21:40:07.770] [main/ERROR] [com.flansmod.common.FlansMod/]: java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+[04Aug2026 21:40:07.770] [main/ERROR] [com.flansmod.common.FlansMod/]: TRANSFORMER/minecraft@1.20.1/net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69)
+[04Aug2026 21:40:07.770] [main/ERROR] [com.flansmod.common.FlansMod/]: TRANSFORMER/minecraft@1.20.1/net.minecraft.Util.m_214652_(Util.java:783)
+[04Aug2026 21:40:07.770] [main/ERROR] [com.flansmod.common.FlansMod/]: TRANSFORMER/minecraft@1.20.1/net.minecraft.Util.m_214679_(Util.java:772)
+[04Aug2026 21:40:07.770] [main/ERROR] [com.flansmod.common.FlansMod/]: TRANSFORMER/minecraft@1.20.1/net.minecraft.server.Main.main(Main.java:166)
+[04Aug2026 21:40:07.770] [main/ERROR] [com.flansmod.common.FlansMod/]: java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[04Aug2026 21:40:07.771] [main/ERROR] [com.flansmod.common.FlansMod/]: java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+[04Aug2026 21:40:07.771] [main/ERROR] [com.flansmod.common.FlansMod/]: java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[04Aug2026 21:40:07.771] [main/ERROR] [com.flansmod.common.FlansMod/]: java.base/java.lang.reflect.Method.invoke(Method.java:569)
+[04Aug2026 21:40:07.771] [main/ERROR] [com.flansmod.common.FlansMod/]: MC-BOOTSTRAP/fmlloader@1.20.1-47.4.0/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111)
+[04Aug2026 21:40:07.771] [main/ERROR] [com.flansmod.common.FlansMod/]: MC-BOOTSTRAP/fmlloader@1.20.1-47.4.0/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103)
+[04Aug2026 21:40:07.771] [main/ERROR] [com.flansmod.common.FlansMod/]: MC-BOOTSTRAP/fmlloader@1.20.1-47.4.0/net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27)
+[04Aug2026 21:40:07.771] [main/ERROR] [com.flansmod.common.FlansMod/]: MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30)
+[04Aug2026 21:40:07.771] [main/ERROR] [com.flansmod.common.FlansMod/]: MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53)
+[04Aug2026 21:40:07.771] [main/ERROR] [com.flansmod.common.FlansMod/]: MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71)
+[04Aug2026 21:40:07.771] [main/ERROR] [com.flansmod.common.FlansMod/]: MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.Launcher.run(Launcher.java:108)
+[04Aug2026 21:40:07.771] [main/ERROR] [com.flansmod.common.FlansMod/]: MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.Launcher.main(Launcher.java:78)
+[04Aug2026 21:40:07.771] [main/ERROR] [com.flansmod.common.FlansMod/]: MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26)
+[04Aug2026 21:40:07.771] [main/ERROR] [com.flansmod.common.FlansMod/]: MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23)
+[04Aug2026 21:40:07.771] [main/ERROR] [com.flansmod.common.FlansMod/]: cpw.mods.bootstraplauncher@1.1.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141)
+[04Aug2026 21:40:07.776] [main/ERROR] [com.flansmod.common.FlansMod/]: Failed to parse JsonNode "flansmod:flansmod:revolver_close_rattle" into flansmod:null as ResourceLocation due to exception: net.minecraft.ResourceLocationException: Non [a-z0-9/._-] character in path of location: flansmod:flansmod:revolver_close_rattle
+[04Aug2026 21:40:07.776] [main/ERROR] [com.flansmod.common.FlansMod/]: Failed to parse JsonNode {"sound":"flansmod:flansmod:revolver_close_rattle","length":0.0,"minPitchMultiplier":1.0,"maxPitchMultiplier":1.0,"minVolume":1.0,"maxVolume":1.0,"maxRange":100.0,"LODs":[]} into com.flansmod.common.types.elements.SoundDefinition@7475cb11 as class com.flansmod.common.types.elements.SoundDefinition due to exception: net.minecraft.ResourceLocationException: Non [a-z0-9/._-] character in path of location: flansmod:flansmod:revolver_close_rattle
+[04Aug2026 21:40:07.776] [main/ERROR] [com.flansmod.common.FlansMod/]: Failed to parse JsonNode [{"sound":"flansmod:flansmod:revolver_close_rattle","length":0.0,"minPitchMultiplier":1.0,"maxPitchMultiplier":1.0,"minVolume":1.0,"maxVolume":1.0,"maxRange":100.0,"LODs":[]}] into [Lcom.flansmod.common.types.elements.SoundDefinition;@34a5bf0a as class com.flansmod.common.types.elements.SoundDefinition[] due to exception: net.minecraft.ResourceLocationException: Non [a-z0-9/._-] character in path of location: flansmod:flansmod:revolver_close_rattle
+[04Aug2026 21:40:07.777] [main/ERROR] [com.flansmod.common.FlansMod/]: Failed to parse JsonNode {"actionType":"PlaySound","duration":0.65200007,"sounds":[{"sound":"flansmod:flansmod:revolver_close_rattle","length":0.0,"minPitchMultiplier":1.0,"maxPitchMultiplier":1.0,"minVolume":1.0,"maxVolume":1.0,"maxRange":100.0,"LODs":[]}],"itemStack":"","modifiers":[],"fovFactor":1.25,"scopeOverlay":"","anim":"reload_end","toolLevel":1.0,"harvestSpeed":1.0,"reach":1.0} into com.flansmod.common.types.guns.elements.ActionDefinition@27f895a0 as class com.flansmod.common.types.guns.elements.ActionDefinition due to exception: net.minecraft.ResourceLocationException: Non [a-z0-9/._-] character in path of location: flansmod:flansmod:revolver_close_rattle
+[04Aug2026 21:40:07.777] [main/ERROR] [com.flansmod.common.FlansMod/]: Failed to parse JsonNode [{"actionType":"Animation","duration":0.65200007,"sounds":[],"itemStack":"","modifiers":[],"fovFactor":1.25,"scopeOverlay":"","anim":"reload_end","toolLevel":1.0,"harvestSpeed":1.0,"reach":1.0},{"actionType":"PlaySound","duration":0.65200007,"sounds":[{"sound":"flansmod:flansmod:revolver_close_rattle","length":0.0,"minPitchMultiplier":1.0,"maxPitchMultiplier":1.0,"minVolume":1.0,"maxVolume":1.0,"maxRange":100.0,"LODs":[]}],"itemStack":"","modifiers":[],"fovFactor":1.25,"scopeOverlay":"","anim":"reload_end","toolLevel":1.0,"harvestSpeed":1.0,"reach":1.0}] into [Lcom.flansmod.common.types.guns.elements.ActionDefinition;@d867419 as class com.flansmod.common.types.guns.elements.ActionDefinition[] due to exception: net.minecraft.ResourceLocationException: Non [a-z0-9/._-] character in path of location: flansmod:flansmod:revolver_close_rattle
+[04Aug2026 21:40:07.777] [main/ERROR] [com.flansmod.common.FlansMod/]: Failed to parse JsonNode {"key":"reload_primary_end","canActUnderwater":true,"canActUnderOtherLiquid":false,"canBeOverriden":false,"twoHanded":false,"repeatMode":"SemiAuto","repeatDelay":0.0,"repeatCount":0,"spinUpDuration":1.0,"loudness":150.0,"actions":[{"actionType":"Animation","duration":0.65200007,"sounds":[],"itemStack":"","modifiers":[],"fovFactor":1.25,"scopeOverlay":"","anim":"reload_end","toolLevel":1.0,"harvestSpeed":1.0,"reach":1.0},{"actionType":"PlaySound","duration":0.65200007,"sounds":[{"sound":"flansmod:flansmod:revolver_close_rattle","length":0.0,"minPitchMultiplier":1.0,"maxPitchMultiplier":1.0,"minVolume":1.0,"maxVolume":1.0,"maxRange":100.0,"LODs":[]}],"itemStack":"","modifiers":[],"fovFactor":1.25,"scopeOverlay":"","anim":"reload_end","toolLevel":1.0,"harvestSpeed":1.0,"reach":1.0}]} into com.flansmod.common.types.guns.elements.ActionGroupDefinition@57f11bfb as class com.flansmod.common.types.guns.elements.ActionGroupDefinition due to exception: net.minecraft.ResourceLocationException: Non [a-z0-9/._-] character in path of location: flansmod:flansmod:revolver_close_rattle
+[04Aug2026 21:40:07.778] [main/ERROR] [com.flansmod.common.FlansMod/]: Failed to parse JsonNode [{"key":"primary_fire","canActUnderwater":true,"canActUnderOtherLiquid":false,"canBeOverriden":true,"twoHanded":false,"repeatMode":"SemiAuto","repeatDelay":0.6,"repeatCount":1,"spinUpDuration":1.5,"loudness":150.0,"actions":[{"actionType":"Shoot","duration":1.0,"sounds":[],"itemStack":"","modifiers":[{"Stat":"vertical_recoil","Filter":"","Add":0.0,"Multiply":15.0,"SetValue":"","ApplyFilters":[]},{"Stat":"spread","Filter":"","Add":0.0,"Multiply":2.0,"SetValue":"","ApplyFilters":[]},{"Stat":"speed","Filter":"","Add":0.0,"Multiply":0.0,"SetValue":"","ApplyFilters":[]},{"Stat":"bullet_count","Filter":"","Add":0.0,"Multiply":1.0,"SetValue":"","ApplyFilters":[]},{"Stat":"impact_damage","Filter":"","Add":0.0,"Multiply":8.0,"SetValue":"","ApplyFilters":[]},{"Stat":"knockback","Filter":"","Add":0.0,"Multiply":0.0,"SetValue":"","ApplyFilters":[]}],"fovFactor":1.0,"scopeOverlay":"","anim":"","toolLevel":1.0,"harvestSpeed":1.0,"reach":5.0},{"actionType":"PlaySound","duration":0.0,"sounds":[{"sound":"createloveandwar:gunshot_revolver","length":0.0,"minPitchMultiplier":0.8333333,"maxPitchMultiplier":1.25,"minVolume":1.0,"maxVolume":1.0,"maxRange":100.0,"LODs":[]}],"itemStack":"","modifiers":[],"fovFactor":1.25,"scopeOverlay":"","anim":"","toolLevel":1.0,"harvestSpeed":1.0,"reach":1.0},{"actionType":"Animation","duration":0.6,"sounds":[],"itemStack":"","modifiers":[],"fovFactor":1.25,"scopeOverlay":"","anim":"shoot","toolLevel":1.0,"harvestSpeed":1.0,"reach":1.0}]},{"key":"ads","canActUnderwater":true,"canActUnderOtherLiquid":false,"canBeOverriden":true,"twoHanded":false,"repeatMode":"Toggle","repeatDelay":0.05,"repeatCount":3,"spinUpDuration":1.5,"loudness":150.0,"actions":[{"actionType":"AimDownSights","duration":0.0,"sounds":[],"itemStack":"","modifiers":[],"fovFactor":1.0,"scopeOverlay":"flansvendersgame:phantek_4x_scope","anim":"","toolLevel":1.0,"harvestSpeed":1.0,"reach":1.0}]},{"key":"look","canActUnderwater":true,"canActUnderOtherLiquid":false,"canBeOverriden":false,"twoHanded":false,"repeatMode":"SemiAuto","repeatDelay":0.0,"repeatCount":0,"spinUpDuration":1.0,"loudness":150.0,"actions":[{"actionType":"Animation","duration":2.5,"sounds":[],"itemStack":"","modifiers":[],"fovFactor":1.25,"scopeOverlay":"","anim":"look_at","toolLevel":1.0,"harvestSpeed":1.0,"reach":1.0}]},{"key":"reload_primary_start","canActUnderwater":true,"canActUnderOtherLiquid":false,"canBeOverriden":false,"twoHanded":false,"repeatMode":"SemiAuto","repeatDelay":0.0,"repeatCount":0,"spinUpDuration":1.0,"loudness":150.0,"actions":[{"actionType":"Animation","duration":1.116,"sounds":[],"itemStack":"","modifiers":[],"fovFactor":1.25,"scopeOverlay":"","anim":"reload_start","toolLevel":1.0,"harvestSpeed":1.0,"reach":1.0},{"actionType":"PlaySound","duration":0.0,"sounds":[{"sound":"flansmod:revolver_open_rattle","length":1.0,"minPitchMultiplier":1.0,"maxPitchMultiplier":1.0,"minVolume":1.0,"maxVolume":1.0,"maxRange":100.0,"LODs":[]}],"itemStack":"","modifiers":[],"fovFactor":1.25,"scopeOverlay":"","anim":"","toolLevel":1.0,"harvestSpeed":1.0,"reach":1.0}]},{"key":"reload_primary_eject","canActUnderwater":true,"canActUnderOtherLiquid":false,"canBeOverriden":false,"twoHanded":false,"repeatMode":"SemiAuto","repeatDelay":0.0,"repeatCount":0,"spinUpDuration":1.0,"loudness":150.0,"actions":[{"actionType":"Animation","duration":1.116,"sounds":[],"itemStack":"","modifiers":[],"fovFactor":1.25,"scopeOverlay":"","anim":"reload_eject","toolLevel":1.0,"harvestSpeed":1.0,"reach":1.0},{"actionType":"PlaySound","duration":1.116,"sounds":[{"sound":"flansmod:magazine_unload_latch","length":1.0,"minPitchMultiplier":0.75,"maxPitchMultiplier":0.75,"minVolume":1.0,"maxVolume":1.0,"maxRange":100.0,"LODs":[]}],"itemStack":"","modifiers":[],"fovFactor":1.25,"scopeOverlay":"","anim":"reload_eject","toolLevel":1.0,"harvestSpeed":1.0,"reach":1.0}]},{"key":"reload_primary_load_one","canActUnderwater":true,"canActUnderOtherLiquid":false,"canBeOverriden":false,"twoHanded":false,"repeatMode":"SemiAuto","repeatDelay":0.0,"repeatCount":0,"spinUpDuration":1.0,"loudness":150.0,"actions":[{"actionType":"Animation","duration":0.558,"sounds":[],"itemStack":"","modifiers":[],"fovFactor":1.25,"scopeOverlay":"","anim":"reload_load_one","toolLevel":1.0,"harvestSpeed":1.0,"reach":1.0},{"actionType":"PlaySound","duration":0.558,"sounds":[{"sound":"flansmod:revolver_turn_rattle","length":1.0,"minPitchMultiplier":0.75,"maxPitchMultiplier":0.75,"minVolume":1.0,"maxVolume":1.0,"maxRange":100.0,"LODs":[]}],"itemStack":"","modifiers":[],"fovFactor":1.25,"scopeOverlay":"","anim":"reload_load_one","toolLevel":1.0,"harvestSpeed":1.0,"reach":1.0}]},{"key":"reload_primary_end","canActUnderwater":true,"canActUnderOtherLiquid":false,"canBeOverriden":false,"twoHanded":false,"repeatMode":"SemiAuto","repeatDelay":0.0,"repeatCount":0,"spinUpDuration":1.0,"loudness":150.0,"actions":[{"actionType":"Animation","duration":0.65200007,"sounds":[],"itemStack":"","modifiers":[],"fovFactor":1.25,"scopeOverlay":"","anim":"reload_end","toolLevel":1.0,"harvestSpeed":1.0,"reach":1.0},{"actionType":"PlaySound","duration":0.65200007,"sounds":[{"sound":"flansmod:flansmod:revolver_close_rattle","length":0.0,"minPitchMultiplier":1.0,"maxPitchMultiplier":1.0,"minVolume":1.0,"maxVolume":1.0,"maxRange":100.0,"LODs":[]}],"itemStack":"","modifiers":[],"fovFactor":1.25,"scopeOverlay":"","anim":"reload_end","toolLevel":1.0,"harvestSpeed":1.0,"reach":1.0}]}] into [Lcom.flansmod.common.types.guns.elements.ActionGroupDefinition;@4eb5a3e0 as class com.flansmod.common.types.guns.elements.ActionGroupDefinition[] due to exception: net.minecraft.ResourceLocationException: Non [a-z0-9/._-] character in path of location: flansmod:flansmod:revolver_close_rattle
+[04Aug2026 21:40:07.778] [main/ERROR] [com.flansmod.common.FlansMod/]: Failed to parse JsonNode {"itemSettings":{"maxStackSize":1,"tags":["flansmod:gun"]},"paints":{"paintjobs":[]},"inputHandlers":[{"inputType":"Fire1","nodes":[{"actionGroupToTrigger":"primary_fire","modalCheck":"","canTriggerWhileReloading":false,"deferToAttachment":false,"attachmentType":"Generic","attachmentIndex":0,"andContinueEvaluating":false},{"actionGroupToTrigger":"reload_primary_start","modalCheck":"","canTriggerWhileReloading":false,"deferToAttachment":false,"attachmentType":"Generic","attachmentIndex":0,"andContinueEvaluating":false}]},{"inputType":"Fire2","nodes":[{"actionGroupToTrigger":"","modalCheck":"","canTriggerWhileReloading":false,"deferToAttachment":true,"attachmentType":"Sights","attachmentIndex":0,"andContinueEvaluating":false},{"actionGroupToTrigger":"","modalCheck":"","canTriggerWhileReloading":false,"deferToAttachment":true,"attachmentType":"Grip","attachmentIndex":0,"andContinueEvaluating":false},{"actionGroupToTrigger":"ads","modalCheck":"","canTriggerWhileReloading":true,"deferToAttachment":false,"attachmentType":"Generic","attachmentIndex":0,"andContinueEvaluating":false}]},{"inputType":"SpecialKey1","nodes":[{"actionGroupToTrigger":"look","modalCheck":"","canTriggerWhileReloading":false,"deferToAttachment":false,"attachmentType":"Generic","attachmentIndex":0,"andContinueEvaluating":false}]},{"inputType":"Reload1","nodes":[{"actionGroupToTrigger":"reload_primary_start","modalCheck":"","canTriggerWhileReloading":false,"deferToAttachment":true,"attachmentType":"Barrel","attachmentIndex":0,"andContinueEvaluating":false},{"actionGroupToTrigger":"reload_primary_start","modalCheck":"","canTriggerWhileReloading":false,"deferToAttachment":false,"attachmentType":"Generic","attachmentIndex":0,"andContinueEvaluating":false}]},{"inputType":"SpecialKey2","nodes":[{"actionGroupToTrigger":"gadget_button","modalCheck":"","canTriggerWhileReloading":false,"deferToAttachment":true,"attachmentType":"Barrel","attachmentIndex":0,"andContinueEvaluating":true},{"actionGroupToTrigger":"gadget_button","modalCheck":"","canTriggerWhileReloading":false,"deferToAttachment":true,"attachmentType":"Sights","attachmentIndex":0,"andContinueEvaluating":true},{"actionGroupToTrigger":"gadget_button","modalCheck":"","canTriggerWhileReloading":false,"deferToAttachment":true,"attachmentType":"Stock","attachmentIndex":0,"andContinueEvaluating":true},{"actionGroupToTrigger":"gadget_button","modalCheck":"","canTriggerWhileReloading":false,"deferToAttachment":true,"attachmentType":"Grip","attachmentIndex":0,"andContinueEvaluating":true}]}],"actionGroups":[{"key":"primary_fire","canActUnderwater":true,"canActUnderOtherLiquid":false,"canBeOverriden":true,"twoHanded":false,"repeatMode":"SemiAuto","repeatDelay":0.6,"repeatCount":1,"spinUpDuration":1.5,"loudness":150.0,"actions":[{"actionType":"Shoot","duration":1.0,"sounds":[],"itemStack":"","modifiers":[{"Stat":"vertical_recoil","Filter":"","Add":0.0,"Multiply":15.0,"SetValue":"","ApplyFilters":[]},{"Stat":"spread","Filter":"","Add":0.0,"Multiply":2.0,"SetValue":"","ApplyFilters":[]},{"Stat":"speed","Filter":"","Add":0.0,"Multiply":0.0,"SetValue":"","ApplyFilters":[]},{"Stat":"bullet_count","Filter":"","Add":0.0,"Multiply":1.0,"SetValue":"","ApplyFilters":[]},{"Stat":"impact_damage","Filter":"","Add":0.0,"Multiply":8.0,"SetValue":"","ApplyFilters":[]},{"Stat":"knockback","Filter":"","Add":0.0,"Multiply":0.0,"SetValue":"","ApplyFilters":[]}],"fovFactor":1.0,"scopeOverlay":"","anim":"","toolLevel":1.0,"harvestSpeed":1.0,"reach":5.0},{"actionType":"PlaySound","duration":0.0,"sounds":[{"sound":"createloveandwar:gunshot_revolver","length":0.0,"minPitchMultiplier":0.8333333,"maxPitchMultiplier":1.25,"minVolume":1.0,"maxVolume":1.0,"maxRange":100.0,"LODs":[]}],"itemStack":"","modifiers":[],"fovFactor":1.25,"scopeOverlay":"","anim":"","toolLevel":1.0,"harvestSpeed":1.0,"reach":1.0},{"actionType":"Animation","duration":0.6,"sounds":[],"itemStack":"","modifiers":[],"fovFactor":1.25,"scopeOverlay":"","anim":"shoot","toolLevel":1.0,"harvestSpeed":1.0,"reach":1.0}]},{"key":"ads","canActUnderwater":true,"canActUnderOtherLiquid":false,"canBeOverriden":true,"twoHanded":false,"repeatMode":"Toggle","repeatDelay":0.05,"repeatCount":3,"spinUpDuration":1.5,"loudness":150.0,"actions":[{"actionType":"AimDownSights","duration":0.0,"sounds":[],"itemStack":"","modifiers":[],"fovFactor":1.0,"scopeOverlay":"flansvendersgame:phantek_4x_scope","anim":"","toolLevel":1.0,"harvestSpeed":1.0,"reach":1.0}]},{"key":"look","canActUnderwater":true,"canActUnderOtherLiquid":false,"canBeOverriden":false,"twoHanded":false,"repeatMode":"SemiAuto","repeatDelay":0.0,"repeatCount":0,"spinUpDuration":1.0,"loudness":150.0,"actions":[{"actionType":"Animation","duration":2.5,"sounds":[],"itemStack":"","modifiers":[],"fovFactor":1.25,"scopeOverlay":"","anim":"look_at","toolLevel":1.0,"harvestSpeed":1.0,"reach":1.0}]},{"key":"reload_primary_start","canActUnderwater":true,"canActUnderOtherLiquid":false,"canBeOverriden":false,"twoHanded":false,"repeatMode":"SemiAuto","repeatDelay":0.0,"repeatCount":0,"spinUpDuration":1.0,"loudness":150.0,"actions":[{"actionType":"Animation","duration":1.116,"sounds":[],"itemStack":"","modifiers":[],"fovFactor":1.25,"scopeOverlay":"","anim":"reload_start","toolLevel":1.0,"harvestSpeed":1.0,"reach":1.0},{"actionType":"PlaySound","duration":0.0,"sounds":[{"sound":"flansmod:revolver_open_rattle","length":1.0,"minPitchMultiplier":1.0,"maxPitchMultiplier":1.0,"minVolume":1.0,"maxVolume":1.0,"maxRange":100.0,"LODs":[]}],"itemStack":"","modifiers":[],"fovFactor":1.25,"scopeOverlay":"","anim":"","toolLevel":1.0,"harvestSpeed":1.0,"reach":1.0}]},{"key":"reload_primary_eject","canActUnderwater":true,"canActUnderOtherLiquid":false,"canBeOverriden":false,"twoHanded":false,"repeatMode":"SemiAuto","repeatDelay":0.0,"repeatCount":0,"spinUpDuration":1.0,"loudness":150.0,"actions":[{"actionType":"Animation","duration":1.116,"sounds":[],"itemStack":"","modifiers":[],"fovFactor":1.25,"scopeOverlay":"","anim":"reload_eject","toolLevel":1.0,"harvestSpeed":1.0,"reach":1.0},{"actionType":"PlaySound","duration":1.116,"sounds":[{"sound":"flansmod:magazine_unload_latch","length":1.0,"minPitchMultiplier":0.75,"maxPitchMultiplier":0.75,"minVolume":1.0,"maxVolume":1.0,"maxRange":100.0,"LODs":[]}],"itemStack":"","modifiers":[],"fovFactor":1.25,"scopeOverlay":"","anim":"reload_eject","toolLevel":1.0,"harvestSpeed":1.0,"reach":1.0}]},{"key":"reload_primary_load_one","canActUnderwater":true,"canActUnderOtherLiquid":false,"canBeOverriden":false,"twoHanded":false,"repeatMode":"SemiAuto","repeatDelay":0.0,"repeatCount":0,"spinUpDuration":1.0,"loudness":150.0,"actions":[{"actionType":"Animation","duration":0.558,"sounds":[],"itemStack":"","modifiers":[],"fovFactor":1.25,"scopeOverlay":"","anim":"reload_load_one","toolLevel":1.0,"harvestSpeed":1.0,"reach":1.0},{"actionType":"PlaySound","duration":0.558,"sounds":[{"sound":"flansmod:revolver_turn_rattle","length":1.0,"minPitchMultiplier":0.75,"maxPitchMultiplier":0.75,"minVolume":1.0,"maxVolume":1.0,"maxRange":100.0,"LODs":[]}],"itemStack":"","modifiers":[],"fovFactor":1.25,"scopeOverlay":"","anim":"reload_load_one","toolLevel":1.0,"harvestSpeed":1.0,"reach":1.0}]},{"key":"reload_primary_end","canActUnderwater":true,"canActUnderOtherLiquid":false,"canBeOverriden":false,"twoHanded":false,"repeatMode":"SemiAuto","repeatDelay":0.0,"repeatCount":0,"spinUpDuration":1.0,"loudness":150.0,"actions":[{"actionType":"Animation","duration":0.65200007,"sounds":[],"itemStack":"","modifiers":[],"fovFactor":1.25,"scopeOverlay":"","anim":"reload_end","toolLevel":1.0,"harvestSpeed":1.0,"reach":1.0},{"actionType":"PlaySound","duration":0.65200007,"sounds":[{"sound":"flansmod:flansmod:revolver_close_rattle","length":0.0,"minPitchMultiplier":1.0,"maxPitchMultiplier":1.0,"minVolume":1.0,"maxVolume":1.0,"maxRange":100.0,"LODs":[]}],"itemStack":"","modifiers":[],"fovFactor":1.25,"scopeOverlay":"","anim":"reload_end","toolLevel":1.0,"harvestSpeed":1.0,"reach":1.0}]}],"magazines":[{"key":"primary","matchByNames":[],"matchByTags":["createloveandwar:walker"],"baseCostToSwap":0}],"reloads":[{"key":"primary_fire","manualReloadAllowed":true,"autoReloadWhenEmpty":true,"startActionKey":"reload_primary_start","ejectActionKey":"reload_primary_eject","loadOneActionKey":"reload_primary_load_one","endActionKey":"reload_primary_end"}],"modes":[],"loopingSounds":[],"barrelAttachments":{"matchNames":[],"matchTags":[],"numAttachmentSlots":1,"hideDefaultMesh":true},"gripAttachments":{"matchNames":[],"matchTags":[],"numAttachmentSlots":0,"hideDefaultMesh":true},"stockAttachments":{"matchNames":[],"matchTags":[],"numAttachmentSlots":0,"hideDefaultMesh":true},"scopeAttachments":{"matchNames":[],"matchTags":[],"numAttachmentSlots":1,"hideDefaultMesh":true},"genericAttachments":{"matchNames":[],"matchTags":[],"numAttachmentSlots":0,"hideDefaultMesh":true},"modelParts":[],"animationSet":"createloveandwar:revolver_individual"} into gun@[createloveandwar:walker] as class com.flansmod.common.types.guns.GunDefinition due to exception: net.minecraft.ResourceLocationException: Non [a-z0-9/._-] character in path of location: flansmod:flansmod:revolver_close_rattle
+[04Aug2026 21:40:07.779] [main/ERROR] [com.flansmod.common.FlansMod/]: Failed to load createloveandwar:walker
+[04Aug2026 21:40:07.780] [main/ERROR] [com.flansmod.common.FlansMod/]: Non [a-z0-9/._-] character in path of location: flansmod:flansmod:revolver_close_rattle
+[04Aug2026 21:40:07.780] [main/ERROR] [com.flansmod.common.FlansMod/]: TRANSFORMER/minecraft@1.20.1/net.minecraft.resources.ResourceLocation.m_245185_(ResourceLocation.java:242)
+[04Aug2026 21:40:07.780] [main/ERROR] [com.flansmod.common.FlansMod/]: TRANSFORMER/minecraft@1.20.1/net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:40)
+[04Aug2026 21:40:07.780] [main/ERROR] [com.flansmod.common.FlansMod/]: TRANSFORMER/minecraft@1.20.1/net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:44)
+[04Aug2026 21:40:07.780] [main/ERROR] [com.flansmod.common.FlansMod/]: TRANSFORMER/minecraft@1.20.1/net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:50)
+[04Aug2026 21:40:07.780] [main/ERROR] [com.flansmod.common.FlansMod/]: TRANSFORMER/flansmod@0.4/com.flansmod.common.types.DefinitionParser.lambda$static$9(DefinitionParser.java:96)
+[04Aug2026 21:40:07.780] [main/ERROR] [com.flansmod.common.FlansMod/]: TRANSFORMER/flansmod@0.4/com.flansmod.common.types.DefinitionParser$ClassDeserializer.Parse(DefinitionParser.java:371)
+[04Aug2026 21:40:07.781] [main/ERROR] [com.flansmod.common.FlansMod/]: TRANSFORMER/flansmod@0.4/com.flansmod.common.types.DefinitionParser$ListDeserializer.Parse(DefinitionParser.java:205)
+[04Aug2026 21:40:07.781] [main/ERROR] [com.flansmod.common.FlansMod/]: TRANSFORMER/flansmod@0.4/com.flansmod.common.types.DefinitionParser$ClassDeserializer.Parse(DefinitionParser.java:371)
+[04Aug2026 21:40:07.781] [main/ERROR] [com.flansmod.common.FlansMod/]: TRANSFORMER/flansmod@0.4/com.flansmod.common.types.DefinitionParser$ListDeserializer.Parse(DefinitionParser.java:205)
+[04Aug2026 21:40:07.781] [main/ERROR] [com.flansmod.common.FlansMod/]: TRANSFORMER/flansmod@0.4/com.flansmod.common.types.DefinitionParser$ClassDeserializer.Parse(DefinitionParser.java:371)
+[04Aug2026 21:40:07.781] [main/ERROR] [com.flansmod.common.FlansMod/]: TRANSFORMER/flansmod@0.4/com.flansmod.common.types.DefinitionParser$ListDeserializer.Parse(DefinitionParser.java:205)
+[04Aug2026 21:40:07.781] [main/ERROR] [com.flansmod.common.FlansMod/]: TRANSFORMER/flansmod@0.4/com.flansmod.common.types.DefinitionParser$ClassDeserializer.Parse(DefinitionParser.java:371)
+[04Aug2026 21:40:07.782] [main/ERROR] [com.flansmod.common.FlansMod/]: TRANSFORMER/flansmod@0.4/com.flansmod.common.types.DefinitionParser.LoadFromJSON(DefinitionParser.java:394)
+[04Aug2026 21:40:07.782] [main/ERROR] [com.flansmod.common.FlansMod/]: TRANSFORMER/flansmod@0.4/com.flansmod.common.types.Definitions.lambda$apply$0(Definitions.java:104)
+[04Aug2026 21:40:07.782] [main/ERROR] [com.flansmod.common.FlansMod/]: java.base/java.util.HashMap.forEach(HashMap.java:1421)
+[04Aug2026 21:40:07.782] [main/ERROR] [com.flansmod.common.FlansMod/]: TRANSFORMER/flansmod@0.4/com.flansmod.common.types.Definitions.apply(Definitions.java:98)
+[04Aug2026 21:40:07.782] [main/ERROR] [com.flansmod.common.FlansMod/]: TRANSFORMER/flansmod@0.4/com.flansmod.common.types.Definitions.m_5787_(Definitions.java:20)
+[04Aug2026 21:40:07.782] [main/ERROR] [com.flansmod.common.FlansMod/]: TRANSFORMER/minecraft@1.20.1/net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13)
+[04Aug2026 21:40:07.782] [main/ERROR] [com.flansmod.common.FlansMod/]: java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
+[04Aug2026 21:40:07.783] [main/ERROR] [com.flansmod.common.FlansMod/]: java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+[04Aug2026 21:40:07.783] [main/ERROR] [com.flansmod.common.FlansMod/]: TRANSFORMER/minecraft@1.20.1/net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69)
+[04Aug2026 21:40:07.783] [main/ERROR] [com.flansmod.common.FlansMod/]: TRANSFORMER/minecraft@1.20.1/net.minecraft.Util.m_214652_(Util.java:783)
+[04Aug2026 21:40:07.783] [main/ERROR] [com.flansmod.common.FlansMod/]: TRANSFORMER/minecraft@1.20.1/net.minecraft.Util.m_214679_(Util.java:772)
+[04Aug2026 21:40:07.783] [main/ERROR] [com.flansmod.common.FlansMod/]: TRANSFORMER/minecraft@1.20.1/net.minecraft.server.Main.main(Main.java:166)
+[04Aug2026 21:40:07.783] [main/ERROR] [com.flansmod.common.FlansMod/]: java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[04Aug2026 21:40:07.783] [main/ERROR] [com.flansmod.common.FlansMod/]: java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+[04Aug2026 21:40:07.783] [main/ERROR] [com.flansmod.common.FlansMod/]: java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[04Aug2026 21:40:07.783] [main/ERROR] [com.flansmod.common.FlansMod/]: java.base/java.lang.reflect.Method.invoke(Method.java:569)
+[04Aug2026 21:40:07.784] [main/ERROR] [com.flansmod.common.FlansMod/]: MC-BOOTSTRAP/fmlloader@1.20.1-47.4.0/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111)
+[04Aug2026 21:40:07.784] [main/ERROR] [com.flansmod.common.FlansMod/]: MC-BOOTSTRAP/fmlloader@1.20.1-47.4.0/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103)
+[04Aug2026 21:40:07.784] [main/ERROR] [com.flansmod.common.FlansMod/]: MC-BOOTSTRAP/fmlloader@1.20.1-47.4.0/net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27)
+[04Aug2026 21:40:07.784] [main/ERROR] [com.flansmod.common.FlansMod/]: MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30)
+[04Aug2026 21:40:07.785] [main/ERROR] [com.flansmod.common.FlansMod/]: MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53)
+[04Aug2026 21:40:07.787] [main/ERROR] [com.flansmod.common.FlansMod/]: MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71)
+[04Aug2026 21:40:07.787] [main/ERROR] [com.flansmod.common.FlansMod/]: MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.Launcher.run(Launcher.java:108)
+[04Aug2026 21:40:07.787] [main/ERROR] [com.flansmod.common.FlansMod/]: MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.Launcher.main(Launcher.java:78)
+[04Aug2026 21:40:07.787] [main/ERROR] [com.flansmod.common.FlansMod/]: MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26)
+[04Aug2026 21:40:07.787] [main/ERROR] [com.flansmod.common.FlansMod/]: MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23)
+[04Aug2026 21:40:07.787] [main/ERROR] [com.flansmod.common.FlansMod/]: cpw.mods.bootstraplauncher@1.1.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141)
+[04Aug2026 21:40:07.816] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio slots
+[04Aug2026 21:40:07.819] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[04Aug2026 21:40:07.828] [main/INFO] [dan200.computercraft.impl.UpgradeManager/]: Loaded 9 turtle upgrades
+[04Aug2026 21:40:07.830] [main/INFO] [dan200.computercraft.impl.UpgradeManager/]: Loaded 3 pocket computer upgrades
+[04Aug2026 21:40:07.834] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id corn_delight:village_house - error: Unknown registry key in ResourceKey[minecraft:root / forge:global_loot_modifier_serializers]: mmlib:add_loot_table
+[04Aug2026 21:40:07.834] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id corn_delight:shipwreck_loot - error: Unknown registry key in ResourceKey[minecraft:root / forge:global_loot_modifier_serializers]: mmlib:add_loot_table
+[04Aug2026 21:40:07.836] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Unable to decode loot conditions
+com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternatives'
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:99) ~[server-1.20.1-20230612.114412-srg.jar%23259!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.loot.IGlobalLootModifier.lambda$static$1(IGlobalLootModifier.java:39) ~[forge-1.20.1-47.4.0-universal.jar%23264!/:?]
+	at com.mojang.serialization.Decoder$1.lambda$decode$1(Decoder.java:49) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.Decoder$1.decode(Decoder.java:49) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.Codec$2.decode(Codec.java:71) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.FieldDecoder.decode(FieldDecoder.java:29) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.MapCodec$1.decode(MapCodec.java:34) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.RecordCodecBuilder$Instance$5.decode(RecordCodecBuilder.java:323) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.RecordCodecBuilder$2.decode(RecordCodecBuilder.java:107) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.lambda$decode$3(KeyDispatchCodec.java:67) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.lambda$decode$4(KeyDispatchCodec.java:58) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.decode(KeyDispatchCodec.java:56) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.MapDecoder.lambda$compressedDecode$1(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.MapDecoder.compressedDecode(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.MapCodec$MapCodecCodec.decode(MapCodec.java:91) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at net.minecraftforge.common.loot.LootModifierManager.apply(LootModifierManager.java:79) ~[forge-1.20.1-47.4.0-universal.jar%23264!/:?]
+	at net.minecraftforge.common.loot.LootModifierManager.m_5787_(LootModifierManager.java:38) ~[forge-1.20.1-47.4.0-universal.jar%23264!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23259!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23259!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23259!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23259!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23259!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[04Aug2026 21:40:07.839] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id nethersdelight:chopping_leather - error: Unknown type 'minecraft:alternatives'
+[04Aug2026 21:40:07.839] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Unable to decode loot conditions
+com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternative'
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:99) ~[server-1.20.1-20230612.114412-srg.jar%23259!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.loot.IGlobalLootModifier.lambda$static$1(IGlobalLootModifier.java:39) ~[forge-1.20.1-47.4.0-universal.jar%23264!/:?]
+	at com.mojang.serialization.Decoder$1.lambda$decode$1(Decoder.java:49) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.Decoder$1.decode(Decoder.java:49) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.Codec$2.decode(Codec.java:71) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.FieldDecoder.decode(FieldDecoder.java:29) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.MapCodec$1.decode(MapCodec.java:34) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.RecordCodecBuilder$Instance$5.decode(RecordCodecBuilder.java:323) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.RecordCodecBuilder$2.decode(RecordCodecBuilder.java:107) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.lambda$decode$3(KeyDispatchCodec.java:67) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.lambda$decode$4(KeyDispatchCodec.java:58) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.decode(KeyDispatchCodec.java:56) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.MapDecoder.lambda$compressedDecode$1(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.MapDecoder.compressedDecode(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.MapCodec$MapCodecCodec.decode(MapCodec.java:91) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at net.minecraftforge.common.loot.LootModifierManager.apply(LootModifierManager.java:79) ~[forge-1.20.1-47.4.0-universal.jar%23264!/:?]
+	at net.minecraftforge.common.loot.LootModifierManager.m_5787_(LootModifierManager.java:38) ~[forge-1.20.1-47.4.0-universal.jar%23264!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23259!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23259!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23259!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23259!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23259!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[04Aug2026 21:40:07.841] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id nethersdelight:chopping_string - error: Unknown type 'minecraft:alternative'
+[04Aug2026 21:40:07.842] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Unable to decode loot conditions
+com.google.gson.JsonSyntaxException: Unknown type 'alternative'
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:99) ~[server-1.20.1-20230612.114412-srg.jar%23259!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.loot.IGlobalLootModifier.lambda$static$1(IGlobalLootModifier.java:39) ~[forge-1.20.1-47.4.0-universal.jar%23264!/:?]
+	at com.mojang.serialization.Decoder$1.lambda$decode$1(Decoder.java:49) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.Decoder$1.decode(Decoder.java:49) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.Codec$2.decode(Codec.java:71) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.FieldDecoder.decode(FieldDecoder.java:29) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.MapCodec$1.decode(MapCodec.java:34) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.RecordCodecBuilder$Instance$7.decode(RecordCodecBuilder.java:406) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.RecordCodecBuilder$2.decode(RecordCodecBuilder.java:107) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.lambda$decode$3(KeyDispatchCodec.java:67) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.lambda$decode$4(KeyDispatchCodec.java:58) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.decode(KeyDispatchCodec.java:56) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.MapDecoder.lambda$compressedDecode$1(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.MapDecoder.compressedDecode(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.MapCodec$MapCodecCodec.decode(MapCodec.java:91) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at net.minecraftforge.common.loot.LootModifierManager.apply(LootModifierManager.java:79) ~[forge-1.20.1-47.4.0-universal.jar%23264!/:?]
+	at net.minecraftforge.common.loot.LootModifierManager.m_5787_(LootModifierManager.java:38) ~[forge-1.20.1-47.4.0-universal.jar%23264!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23259!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23259!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23259!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23259!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23259!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[04Aug2026 21:40:07.843] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id miners_delight:scavenging_tentacles - error: Unknown type 'alternative'
+[04Aug2026 21:40:07.844] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Unable to decode loot conditions
+com.google.gson.JsonSyntaxException: Unknown type 'alternative'
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:99) ~[server-1.20.1-20230612.114412-srg.jar%23259!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.loot.IGlobalLootModifier.lambda$static$1(IGlobalLootModifier.java:39) ~[forge-1.20.1-47.4.0-universal.jar%23264!/:?]
+	at com.mojang.serialization.Decoder$1.lambda$decode$1(Decoder.java:49) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.Decoder$1.decode(Decoder.java:49) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.Codec$2.decode(Codec.java:71) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.FieldDecoder.decode(FieldDecoder.java:29) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.MapCodec$1.decode(MapCodec.java:34) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.RecordCodecBuilder$Instance$5.decode(RecordCodecBuilder.java:323) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.RecordCodecBuilder$2.decode(RecordCodecBuilder.java:107) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.lambda$decode$3(KeyDispatchCodec.java:67) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.lambda$decode$4(KeyDispatchCodec.java:58) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.decode(KeyDispatchCodec.java:56) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.MapDecoder.lambda$compressedDecode$1(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.MapDecoder.compressedDecode(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.MapCodec$MapCodecCodec.decode(MapCodec.java:91) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at net.minecraftforge.common.loot.LootModifierManager.apply(LootModifierManager.java:79) ~[forge-1.20.1-47.4.0-universal.jar%23264!/:?]
+	at net.minecraftforge.common.loot.LootModifierManager.m_5787_(LootModifierManager.java:38) ~[forge-1.20.1-47.4.0-universal.jar%23264!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23259!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23259!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23259!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23259!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23259!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[04Aug2026 21:40:07.846] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id miners_delight:scavenging_silverfish - error: Unknown type 'alternative'
+[04Aug2026 21:40:07.942] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'minecraft:carpets' doesn't exist!
+[04Aug2026 21:40:07.943] [main/WARN] [ModernFix/]: Initial datapack load took 4.815 s
+[04Aug2026 21:40:08.241] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[04Aug2026 21:40:08.242] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[04Aug2026 21:40:08.242] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[04Aug2026 21:40:08.242] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[04Aug2026 21:40:08.394] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[04Aug2026 21:40:08.426] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[04Aug2026 21:40:08.532] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[04Aug2026 21:40:08.533] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[04Aug2026 21:40:08.533] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[04Aug2026 21:40:08.533] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[04Aug2026 21:40:08.569] [Server thread/INFO] [com.tom.createores.CreateOreExcavation/]: Loaded Create Ore Excavation config file createoreexcavation-server.toml
+[04Aug2026 21:40:08.739] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[04Aug2026 21:40:09.853] [Server thread/INFO] [org.valkyrienskies.core.impl.networking.VSNetworking/]: We are not using UDP, falling back to TCP
+[04Aug2026 21:40:14.885] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[04Aug2026 21:40:15.011] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak/]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[04Aug2026 21:40:16.015] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak/]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[04Aug2026 21:40:17.018] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak/]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[04Aug2026 21:40:17.285] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Aug2026 21:40:17.286] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Aug2026 21:40:17.286] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Aug2026 21:40:17.287] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Aug2026 21:40:17.287] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Aug2026 21:40:17.386] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Aug2026 21:40:17.594] [Server thread/INFO] [STDOUT/]: [earth.terrarium.botarium.common.energy.EnergyApi:finalizeBlockRegistration:39]: Finalizing energy block registration
+[04Aug2026 21:40:17.596] [Server thread/INFO] [STDOUT/]: [earth.terrarium.botarium.common.fluid.FluidApi:finalizeBlockRegistration:42]: Finalizing fluid block registration
+[04Aug2026 21:40:17.989] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 15%
+[04Aug2026 21:40:18.019] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak/]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[04Aug2026 21:40:18.386] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 34%
+[04Aug2026 21:40:18.888] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 78%
+[04Aug2026 21:40:19.020] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ak/]: Too many physics frames in the physics frame queue. Is the game stage broken?
+[04Aug2026 21:40:19.160] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 4275 ms
+[04Aug2026 21:40:19.161] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (10.616s)! For help, type "help"
+[04Aug2026 21:40:19.223] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[04Aug2026 21:40:19.281] [Server thread/INFO] [net.pttheta.loveandwar.LoveAndWarMod/]: HELLO from server starting
+[04Aug2026 21:40:19.290] [Server thread/INFO] [com.mangomilk.design_decor.DesignDecor/]: :3
+[04Aug2026 21:40:19.291] [Server thread/INFO] [com.drmangotea.tfmg.CreateTFMG/]: YEEEHAAW
+[04Aug2026 21:40:19.383] [Server thread/INFO] [net.bettercombat.logic.WeaponRegistry/]: Encoded Weapon Attribute registry size (with package overhead): 75541 bytes (in 8 string chunks with the size of 10000)
+[04Aug2026 21:40:19.385] [Server thread/WARN] [ModernFix/]: Dedicated server took 45.067 seconds to load
+[04Aug2026 21:40:25.533] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Tama253[/100.123.121.113:56628] logged in with entity id 81 at (231.63243638858205, 136.0, 864.7755414156205)
+[04Aug2026 21:40:25.618] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player Tama253
+[04Aug2026 21:40:25.642] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Tama253 joined the game
+[04Aug2026 21:40:25.840] [Server thread/INFO] [com.flansmod.common.FlansMod/]: Context[81544aad-e501-37b2-843b-024c29cbf027] seen for the first time as 'Player:'Tama253'['overworld']'
+[04Aug2026 21:40:27.073] [Server thread/INFO] [STDOUT/]: [earth.terrarium.botarium.common.energy.EnergyApi:finalizeItemRegistration:54]: Finalizing energy item registration
+[04Aug2026 21:40:27.074] [Server thread/INFO] [STDOUT/]: [earth.terrarium.botarium.common.fluid.FluidApi:finalizeItemRegistration:55]: Finalizing fluid item registration
+[04Aug2026 21:48:36.055] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Tama253 has made the advancement [Suit Up]
+[04Aug2026 21:50:19.481] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[04Aug2026 21:50:19.482] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[04Aug2026 21:50:19.484] [Server thread/INFO] [AllTheLeaks/]: B: 839MB / C: 855MB / Diff: +16MB
+[04Aug2026 21:50:19.485] [Server thread/INFO] [AllTheLeaks/]: Memory Leaks detected: (/atl force_refresh to update)
+[04Aug2026 21:50:19.485] [Server thread/INFO] [AllTheLeaks/]: | ChunkAccess:
+[04Aug2026 21:50:19.485] [Server thread/INFO] [AllTheLeaks/]: |- LevelChunk (minecraft): 50
+[04Aug2026 21:53:37.193] [Worker-Main-2/WARN] [lithostitched/]: Non-existent template pool reference: minecraft:
+[04Aug2026 22:00:19.491] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[04Aug2026 22:00:19.491] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[04Aug2026 22:00:19.491] [Server thread/INFO] [AllTheLeaks/]: B: 839MB / C: 980MB / Diff: +141MB
+[04Aug2026 22:00:19.491] [Server thread/INFO] [AllTheLeaks/]: Memory Leaks detected: (/atl force_refresh to update)
+[04Aug2026 22:00:19.492] [Server thread/INFO] [AllTheLeaks/]: | ChunkAccess:
+[04Aug2026 22:00:19.492] [Server thread/INFO] [AllTheLeaks/]: |- LevelChunk (minecraft): 376
+[04Aug2026 22:09:31.256] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Tama253 has made the advancement [Dark Metallurgy]
+[04Aug2026 22:10:19.513] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[04Aug2026 22:10:19.513] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[04Aug2026 22:10:19.513] [Server thread/INFO] [AllTheLeaks/]: B: 839MB / C: 1012MB / Diff: +173MB
+[04Aug2026 22:10:19.514] [Server thread/INFO] [AllTheLeaks/]: Memory Leaks detected: (/atl force_refresh to update)
+[04Aug2026 22:10:19.514] [Server thread/INFO] [AllTheLeaks/]: | ChunkAccess:
+[04Aug2026 22:10:19.514] [Server thread/INFO] [AllTheLeaks/]: |- LevelChunk (minecraft): 541
+[04Aug2026 22:16:28.136] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Tama253 has made the advancement [The Cutest Predator]
+[04Aug2026 22:20:19.571] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[04Aug2026 22:20:19.571] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[04Aug2026 22:20:19.571] [Server thread/INFO] [AllTheLeaks/]: B: 839MB / C: 1034MB / Diff: +195MB
+[04Aug2026 22:20:19.571] [Server thread/INFO] [AllTheLeaks/]: Memory Leaks detected: (/atl force_refresh to update)
+[04Aug2026 22:20:19.572] [Server thread/INFO] [AllTheLeaks/]: | ChunkAccess:
+[04Aug2026 22:20:19.572] [Server thread/INFO] [AllTheLeaks/]: |- LevelChunk (minecraft): 745
+[04Aug2026 22:21:21.301] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Tama253 has made the advancement [Not Today, Thank You]
+[04Aug2026 22:30:05.346] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Tama253 has made the advancement [Hot Stuff]
+[04Aug2026 22:30:19.607] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[04Aug2026 22:30:19.607] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[04Aug2026 22:30:19.607] [Server thread/INFO] [AllTheLeaks/]: B: 839MB / C: 1111MB / Diff: +272MB
+[04Aug2026 22:30:19.607] [Server thread/INFO] [AllTheLeaks/]: Memory Leaks detected: (/atl force_refresh to update)
+[04Aug2026 22:30:19.607] [Server thread/INFO] [AllTheLeaks/]: | ChunkAccess:
+[04Aug2026 22:30:19.608] [Server thread/INFO] [AllTheLeaks/]: |- LevelChunk (minecraft): 845
+[04Aug2026 22:36:36.554] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Tama253 has made the advancement [Diamonds!]
+[04Aug2026 22:40:19.650] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[04Aug2026 22:40:19.650] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[04Aug2026 22:40:19.651] [Server thread/INFO] [AllTheLeaks/]: B: 839MB / C: 1111MB / Diff: +272MB
+[04Aug2026 22:40:19.651] [Server thread/INFO] [AllTheLeaks/]: Memory Leaks detected: (/atl force_refresh to update)
+[04Aug2026 22:40:19.651] [Server thread/INFO] [AllTheLeaks/]: | ChunkAccess:
+[04Aug2026 22:40:19.651] [Server thread/INFO] [AllTheLeaks/]: |- LevelChunk (minecraft): 845
+[04Aug2026 22:44:48.714] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Applied effect Regeneration to Tama253
+[04Aug2026 22:45:03.251] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Tama253 burned to death
+[04Aug2026 22:45:10.587] [Server thread/ERROR] [AllTheLeaks/]: Cannot have null removal reason on Clone event!
+[04Aug2026 22:45:10.593] [Server thread/INFO] [com.flansmod.common.FlansMod/]: Context[81544aad-e501-37b2-843b-024c29cbf027] updated from 'Player:'Tama253'['overworld']' to 'Player:'Tama253'['overworld']'
+[04Aug2026 22:50:19.706] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[04Aug2026 22:50:19.706] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 1
+[04Aug2026 22:50:19.707] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 1
+[04Aug2026 22:50:19.707] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[04Aug2026 22:50:19.707] [Server thread/INFO] [AllTheLeaks/]: B: 839MB / C: 1221MB / Diff: +382MB
+[04Aug2026 22:50:19.707] [Server thread/INFO] [AllTheLeaks/]: Memory Leaks detected: (/atl force_refresh to update)
+[04Aug2026 22:50:19.707] [Server thread/INFO] [AllTheLeaks/]: | ChunkAccess:
+[04Aug2026 22:50:19.707] [Server thread/INFO] [AllTheLeaks/]: |- LevelChunk (minecraft): 1698
+[04Aug2026 22:50:19.707] [Server thread/INFO] [AllTheLeaks/]: | Player:
+[04Aug2026 22:50:19.707] [Server thread/INFO] [AllTheLeaks/]: |- ServerPlayer (minecraft): 1
+[04Aug2026 22:58:29.661] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Gave 128 [Iron Ingot] to Tama253
+[04Aug2026 22:58:39.869] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Gave 192 [Coal] to Tama253
+[04Aug2026 22:58:47.314] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Gave 1 [Axolotl Spawn Egg] to Tama253
+[04Aug2026 22:58:54.111] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Gave 4 [Diamond] to Tama253
+[04Aug2026 22:59:19.538] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Gave 12 [Oak Wood] to Tama253
+[04Aug2026 23:00:19.755] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[04Aug2026 23:00:19.756] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 1
+[04Aug2026 23:00:19.756] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 1
+[04Aug2026 23:00:19.756] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[04Aug2026 23:00:19.756] [Server thread/INFO] [AllTheLeaks/]: B: 839MB / C: 1233MB / Diff: +394MB
+[04Aug2026 23:00:19.756] [Server thread/INFO] [AllTheLeaks/]: Memory Leaks detected: (/atl force_refresh to update)
+[04Aug2026 23:00:19.756] [Server thread/INFO] [AllTheLeaks/]: | ChunkAccess:
+[04Aug2026 23:00:19.756] [Server thread/INFO] [AllTheLeaks/]: |- LevelChunk (minecraft): 1842
+[04Aug2026 23:00:19.757] [Server thread/INFO] [AllTheLeaks/]: | Player:
+[04Aug2026 23:00:19.757] [Server thread/INFO] [AllTheLeaks/]: |- ServerPlayer (minecraft): 1
+[04Aug2026 23:05:15.412] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Tama253 has made the advancement [Life turned out to be a comedy]
+[04Aug2026 23:10:19.799] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[04Aug2026 23:10:19.800] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 1
+[04Aug2026 23:10:19.800] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 1
+[04Aug2026 23:10:19.800] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[04Aug2026 23:10:19.800] [Server thread/INFO] [AllTheLeaks/]: B: 839MB / C: 1261MB / Diff: +422MB
+[04Aug2026 23:10:19.800] [Server thread/INFO] [AllTheLeaks/]: Memory Leaks detected: (/atl force_refresh to update)
+[04Aug2026 23:10:19.800] [Server thread/INFO] [AllTheLeaks/]: | ChunkAccess:
+[04Aug2026 23:10:19.800] [Server thread/INFO] [AllTheLeaks/]: |- LevelChunk (minecraft): 2018
+[04Aug2026 23:10:19.801] [Server thread/INFO] [AllTheLeaks/]: | Player:
+[04Aug2026 23:10:19.801] [Server thread/INFO] [AllTheLeaks/]: |- ServerPlayer (minecraft): 1
+[04Aug2026 23:15:18.907] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Tama253 lost connection: Disconnected
+[04Aug2026 23:15:18.908] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Tama253 left the game
+[04Aug2026 23:15:27.496] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[04Aug2026 23:15:27.538] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[04Aug2026 23:15:27.541] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[04Aug2026 23:15:27.541] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[04Aug2026 23:15:27.554] [Physics thread/INFO] [STDOUT/]: [org.valkyrienskies.core.impl.shadow.At:c:-1]: Running deletePhysicsResources
+[04Aug2026 23:15:27.555] [Physics thread/INFO] [Burger Factory/]: Deleting VSPhysicsPipelineStage resources!
+[04Aug2026 23:15:27.562] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.Ap/]: Physics pipeline ending
+[04Aug2026 23:15:27.639] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[04Aug2026 23:15:27.653] [DefaultDispatcher-worker-1/INFO] [Burger Factory/]: VSPhysicsPipelineStage is fully deleted!
+[04Aug2026 23:15:29.102] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[04Aug2026 23:15:29.103] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/irons_spellbooks:pocket_dimension
+[04Aug2026 23:15:29.104] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[04Aug2026 23:15:29.104] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/create_dd:ponder
+[04Aug2026 23:15:29.166] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[04Aug2026 23:15:29.166] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[04Aug2026 23:15:29.166] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (pocket_dimension): All chunks are saved
+[04Aug2026 23:15:29.166] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[04Aug2026 23:15:29.167] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (ponder): All chunks are saved
+[04Aug2026 23:15:29.167] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
